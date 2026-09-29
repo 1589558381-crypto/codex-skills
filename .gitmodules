@@ -1,4 +1,60 @@
+[submodule "sources/scientific-agent-skills"]
+	path = sources/scientific-agent-skills
+	url = https://github.com/K-Dense-AI/scientific-agent-skills.git
+	branch = main
 [submodule "sources/nature-skills"]
 	path = sources/nature-skills
 	url = https://github.com/Yuan1z0825/nature-skills.git
+	branch = main
+[submodule "sources/academic-research-skills-codex"]
+	path = sources/academic-research-skills-codex
+	url = https://github.com/Imbad0202/academic-research-skills-codex.git
+	branch = main
+[submodule "sources/codex-autoresearch"]
+	path = sources/codex-autoresearch
+	url = https://github.com/leo-lilinxiao/codex-autoresearch.git
+	branch = main
+[submodule "sources/codex-claude-academic-skills"]
+	path = sources/codex-claude-academic-skills
+	url = https://github.com/zLanqing/codex-claude-academic-skills.git
+	branch = main
+[submodule "sources/Auto-claude-code-research-in-sleep"]
+	path = sources/Auto-claude-code-research-in-sleep
+	url = https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+	branch = main
+[submodule "sources/AI-Research-SKILLs"]
+	path = sources/AI-Research-SKILLs
+	url = https://github.com/Orchestra-Research/AI-Research-SKILLs.git
+	branch = main
+[submodule "sources/social-science-paper-writing-skill"]
+	path = sources/social-science-paper-writing-skill
+	url = https://github.com/fakerqwq/social-science-paper-writing-skill.git
+	branch = main
+[submodule "sources/daily-literature-digest-skill"]
+	path = sources/daily-literature-digest-skill
+	url = https://github.com/xuezheng627/daily-literature-digest-skill.git
+	branch = main
+[submodule "sources/research-radar-paper-vault"]
+	path = sources/research-radar-paper-vault
+	url = https://github.com/xuezheng627/research-radar-paper-vault.git
+	branch = main
+[submodule "sources/frontend-slides"]
+	path = sources/frontend-slides
+	url = https://github.com/zarazhangrui/frontend-slides.git
+	branch = main
+[submodule "sources/impeccable"]
+	path = sources/impeccable
+	url = https://github.com/pbakaus/impeccable.git
+	branch = main
+[submodule "sources/ui-ux-pro-max-skill"]
+	path = sources/ui-ux-pro-max-skill
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+	branch = main
+[submodule "sources/agent-skills"]
+	path = sources/agent-skills
+	url = https://github.com/vercel-labs/agent-skills.git
+	branch = main
+[submodule "sources/anthropics-skills"]
+	path = sources/anthropics-skills
+	url = https://github.com/anthropics/skills.git
 	branch = main
