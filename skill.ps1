@@ -15,11 +15,15 @@ $RegistryUrl = "https://raw.githubusercontent.com/1589558381-crypto/codex-skills
 $InstallRoot = Join-Path (Get-Location) ".agents\skills"
 
 function Get-Registry {
-    $repoRoot = Split-Path $PSScriptRoot -Parent
-    $localRegistry = Join-Path $repoRoot "registry\skills.json"
+    $localCandidates = @(
+        (Join-Path $PSScriptRoot "registry\skills.json"),
+        (Join-Path (Split-Path $PSScriptRoot -Parent) "registry\skills.json")
+    )
 
-    if (Test-Path $localRegistry) {
-        return (Get-Content -Raw -Encoding UTF8 $localRegistry | ConvertFrom-Json)
+    foreach ($localRegistry in $localCandidates) {
+        if (Test-Path $localRegistry) {
+            return (Get-Content -Raw -Encoding UTF8 $localRegistry | ConvertFrom-Json)
+        }
     }
 
     try {
