@@ -1,0 +1,1836 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "GitHub main branches pinned on 2026-09-29",
+  "installRoot": ".agents/skills",
+  "sources": [
+    {
+      "alias": "kdense",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "065b734670d7d990627dbc06a05b5a99be33f1f1",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "adaptyv",
+          "path": "skills/adaptyv"
+        },
+        {
+          "name": "aeon",
+          "path": "skills/aeon"
+        },
+        {
+          "name": "alphagenome",
+          "path": "skills/alphagenome"
+        },
+        {
+          "name": "analytical-method-validation",
+          "path": "skills/analytical-method-validation"
+        },
+        {
+          "name": "anndata",
+          "path": "skills/anndata"
+        },
+        {
+          "name": "arbor",
+          "path": "skills/arbor"
+        },
+        {
+          "name": "arboreto",
+          "path": "skills/arboreto"
+        },
+        {
+          "name": "astropy",
+          "path": "skills/astropy"
+        },
+        {
+          "name": "autoskill",
+          "path": "skills/autoskill"
+        },
+        {
+          "name": "benchling-integration",
+          "path": "skills/benchling-integration"
+        },
+        {
+          "name": "bgpt-paper-search",
+          "path": "skills/bgpt-paper-search"
+        },
+        {
+          "name": "bids",
+          "path": "skills/bids"
+        },
+        {
+          "name": "biopython",
+          "path": "skills/biopython"
+        },
+        {
+          "name": "bioservices",
+          "path": "skills/bioservices"
+        },
+        {
+          "name": "bulk-rnaseq",
+          "path": "skills/bulk-rnaseq"
+        },
+        {
+          "name": "cellxgene-census",
+          "path": "skills/cellxgene-census"
+        },
+        {
+          "name": "cirq",
+          "path": "skills/cirq"
+        },
+        {
+          "name": "citation-management",
+          "path": "skills/citation-management"
+        },
+        {
+          "name": "clinical-decision-support",
+          "path": "skills/clinical-decision-support"
+        },
+        {
+          "name": "clinical-reports",
+          "path": "skills/clinical-reports"
+        },
+        {
+          "name": "cobrapy",
+          "path": "skills/cobrapy"
+        },
+        {
+          "name": "consciousness-council",
+          "path": "skills/consciousness-council"
+        },
+        {
+          "name": "dask",
+          "path": "skills/dask"
+        },
+        {
+          "name": "database-lookup",
+          "path": "skills/database-lookup"
+        },
+        {
+          "name": "datalad",
+          "path": "skills/datalad"
+        },
+        {
+          "name": "datamol",
+          "path": "skills/datamol"
+        },
+        {
+          "name": "deepchem",
+          "path": "skills/deepchem"
+        },
+        {
+          "name": "deepspot-m",
+          "path": "skills/deepspot-m"
+        },
+        {
+          "name": "deeptools",
+          "path": "skills/deeptools"
+        },
+        {
+          "name": "depmap",
+          "path": "skills/depmap"
+        },
+        {
+          "name": "dhdna-profiler",
+          "path": "skills/dhdna-profiler"
+        },
+        {
+          "name": "diffdock",
+          "path": "skills/diffdock"
+        },
+        {
+          "name": "dnanexus-integration",
+          "path": "skills/dnanexus-integration"
+        },
+        {
+          "name": "docx",
+          "path": "skills/docx"
+        },
+        {
+          "name": "esm",
+          "path": "skills/esm"
+        },
+        {
+          "name": "etetoolkit",
+          "path": "skills/etetoolkit"
+        },
+        {
+          "name": "exa-search",
+          "path": "skills/exa-search"
+        },
+        {
+          "name": "experimental-design",
+          "path": "skills/experimental-design"
+        },
+        {
+          "name": "exploratory-data-analysis",
+          "path": "skills/exploratory-data-analysis"
+        },
+        {
+          "name": "flowio",
+          "path": "skills/flowio"
+        },
+        {
+          "name": "fluidsim",
+          "path": "skills/fluidsim"
+        },
+        {
+          "name": "folklore-variant-evidence",
+          "path": "skills/folklore-variant-evidence"
+        },
+        {
+          "name": "generate-image",
+          "path": "skills/generate-image"
+        },
+        {
+          "name": "geniml",
+          "path": "skills/geniml"
+        },
+        {
+          "name": "genomic-coordinates",
+          "path": "skills/genomic-coordinates"
+        },
+        {
+          "name": "genomic-intelligence",
+          "path": "skills/genomic-intelligence"
+        },
+        {
+          "name": "geomaster",
+          "path": "skills/geomaster"
+        },
+        {
+          "name": "geopandas",
+          "path": "skills/geopandas"
+        },
+        {
+          "name": "get-available-resources",
+          "path": "skills/get-available-resources"
+        },
+        {
+          "name": "gget",
+          "path": "skills/gget"
+        },
+        {
+          "name": "ginkgo-cloud-lab",
+          "path": "skills/ginkgo-cloud-lab"
+        },
+        {
+          "name": "glycoengineering",
+          "path": "skills/glycoengineering"
+        },
+        {
+          "name": "gtars",
+          "path": "skills/gtars"
+        },
+        {
+          "name": "histolab",
+          "path": "skills/histolab"
+        },
+        {
+          "name": "hugging-science",
+          "path": "skills/hugging-science"
+        },
+        {
+          "name": "hypogenic",
+          "path": "skills/hypogenic"
+        },
+        {
+          "name": "hypothesis-generation",
+          "path": "skills/hypothesis-generation"
+        },
+        {
+          "name": "imaging-data-commons",
+          "path": "skills/imaging-data-commons"
+        },
+        {
+          "name": "infographics",
+          "path": "skills/infographics"
+        },
+        {
+          "name": "iso-standards-readiness",
+          "path": "skills/iso-standards-readiness"
+        },
+        {
+          "name": "lab-hardware-cad",
+          "path": "skills/lab-hardware-cad"
+        },
+        {
+          "name": "labarchive-integration",
+          "path": "skills/labarchive-integration"
+        },
+        {
+          "name": "lamindb",
+          "path": "skills/lamindb"
+        },
+        {
+          "name": "latchbio-integration",
+          "path": "skills/latchbio-integration"
+        },
+        {
+          "name": "latex-posters",
+          "path": "skills/latex-posters"
+        },
+        {
+          "name": "liteparse",
+          "path": "skills/liteparse"
+        },
+        {
+          "name": "literature-review",
+          "path": "skills/literature-review"
+        },
+        {
+          "name": "markdown-mermaid-writing",
+          "path": "skills/markdown-mermaid-writing"
+        },
+        {
+          "name": "market-research-reports",
+          "path": "skills/market-research-reports"
+        },
+        {
+          "name": "markitdown",
+          "path": "skills/markitdown"
+        },
+        {
+          "name": "matchms",
+          "path": "skills/matchms"
+        },
+        {
+          "name": "matlab",
+          "path": "skills/matlab"
+        },
+        {
+          "name": "matplotlib",
+          "path": "skills/matplotlib"
+        },
+        {
+          "name": "medchem",
+          "path": "skills/medchem"
+        },
+        {
+          "name": "modal",
+          "path": "skills/modal"
+        },
+        {
+          "name": "molecular-dynamics",
+          "path": "skills/molecular-dynamics"
+        },
+        {
+          "name": "molfeat",
+          "path": "skills/molfeat"
+        },
+        {
+          "name": "ncats-arax",
+          "path": "skills/ncats-arax"
+        },
+        {
+          "name": "networkx",
+          "path": "skills/networkx"
+        },
+        {
+          "name": "neurokit2",
+          "path": "skills/neurokit2"
+        },
+        {
+          "name": "neuropixels-analysis",
+          "path": "skills/neuropixels-analysis"
+        },
+        {
+          "name": "nextflow",
+          "path": "skills/nextflow"
+        },
+        {
+          "name": "omero-integration",
+          "path": "skills/omero-integration"
+        },
+        {
+          "name": "onekgpd",
+          "path": "skills/onekgpd"
+        },
+        {
+          "name": "ontology-term-resolution",
+          "path": "skills/ontology-term-resolution"
+        },
+        {
+          "name": "open-notebook",
+          "path": "skills/open-notebook"
+        },
+        {
+          "name": "openpiv",
+          "path": "skills/openpiv"
+        },
+        {
+          "name": "opentrons-integration",
+          "path": "skills/opentrons-integration"
+        },
+        {
+          "name": "optimize-for-gpu",
+          "path": "skills/optimize-for-gpu"
+        },
+        {
+          "name": "pacsomatic",
+          "path": "skills/pacsomatic"
+        },
+        {
+          "name": "paper-lookup",
+          "path": "skills/paper-lookup"
+        },
+        {
+          "name": "paperclip",
+          "path": "skills/paperclip"
+        },
+        {
+          "name": "paperzilla",
+          "path": "skills/paperzilla"
+        },
+        {
+          "name": "parallel-web",
+          "path": "skills/parallel-web"
+        },
+        {
+          "name": "pathml",
+          "path": "skills/pathml"
+        },
+        {
+          "name": "pathogen-variant-surveillance",
+          "path": "skills/pathogen-variant-surveillance"
+        },
+        {
+          "name": "pathway-enrichment",
+          "path": "skills/pathway-enrichment"
+        },
+        {
+          "name": "pdf",
+          "path": "skills/pdf"
+        },
+        {
+          "name": "peer-review",
+          "path": "skills/peer-review"
+        },
+        {
+          "name": "pennylane",
+          "path": "skills/pennylane"
+        },
+        {
+          "name": "phylogenetics",
+          "path": "skills/phylogenetics"
+        },
+        {
+          "name": "pi-agent",
+          "path": "skills/pi-agent"
+        },
+        {
+          "name": "pkpd-modeling",
+          "path": "skills/pkpd-modeling"
+        },
+        {
+          "name": "polars-bio",
+          "path": "skills/polars-bio"
+        },
+        {
+          "name": "polars",
+          "path": "skills/polars"
+        },
+        {
+          "name": "pptx-posters",
+          "path": "skills/pptx-posters"
+        },
+        {
+          "name": "pptx",
+          "path": "skills/pptx"
+        },
+        {
+          "name": "primekg",
+          "path": "skills/primekg"
+        },
+        {
+          "name": "protocolsio-integration",
+          "path": "skills/protocolsio-integration"
+        },
+        {
+          "name": "pufferlib",
+          "path": "skills/pufferlib"
+        },
+        {
+          "name": "pydeseq2",
+          "path": "skills/pydeseq2"
+        },
+        {
+          "name": "pydicom",
+          "path": "skills/pydicom"
+        },
+        {
+          "name": "pyhealth",
+          "path": "skills/pyhealth"
+        },
+        {
+          "name": "pylabrobot",
+          "path": "skills/pylabrobot"
+        },
+        {
+          "name": "pymatgen",
+          "path": "skills/pymatgen"
+        },
+        {
+          "name": "pymc",
+          "path": "skills/pymc"
+        },
+        {
+          "name": "pymoo",
+          "path": "skills/pymoo"
+        },
+        {
+          "name": "pyopenms",
+          "path": "skills/pyopenms"
+        },
+        {
+          "name": "pysam",
+          "path": "skills/pysam"
+        },
+        {
+          "name": "pytdc",
+          "path": "skills/pytdc"
+        },
+        {
+          "name": "pytorch-lightning",
+          "path": "skills/pytorch-lightning"
+        },
+        {
+          "name": "pyzotero",
+          "path": "skills/pyzotero"
+        },
+        {
+          "name": "qiskit",
+          "path": "skills/qiskit"
+        },
+        {
+          "name": "qutip",
+          "path": "skills/qutip"
+        },
+        {
+          "name": "rdkit",
+          "path": "skills/rdkit"
+        },
+        {
+          "name": "relsa-severity-assessment",
+          "path": "skills/relsa-severity-assessment"
+        },
+        {
+          "name": "research-grants",
+          "path": "skills/research-grants"
+        },
+        {
+          "name": "research-lookup",
+          "path": "skills/research-lookup"
+        },
+        {
+          "name": "rowan",
+          "path": "skills/rowan"
+        },
+        {
+          "name": "scanpy",
+          "path": "skills/scanpy"
+        },
+        {
+          "name": "scholar-evaluation",
+          "path": "skills/scholar-evaluation"
+        },
+        {
+          "name": "scientific-brainstorming",
+          "path": "skills/scientific-brainstorming"
+        },
+        {
+          "name": "scientific-critical-thinking",
+          "path": "skills/scientific-critical-thinking"
+        },
+        {
+          "name": "scientific-schematics",
+          "path": "skills/scientific-schematics"
+        },
+        {
+          "name": "scientific-slides",
+          "path": "skills/scientific-slides"
+        },
+        {
+          "name": "scientific-visualization",
+          "path": "skills/scientific-visualization"
+        },
+        {
+          "name": "scientific-writing",
+          "path": "skills/scientific-writing"
+        },
+        {
+          "name": "scikit-bio",
+          "path": "skills/scikit-bio"
+        },
+        {
+          "name": "scikit-learn",
+          "path": "skills/scikit-learn"
+        },
+        {
+          "name": "scikit-survival",
+          "path": "skills/scikit-survival"
+        },
+        {
+          "name": "scvelo",
+          "path": "skills/scvelo"
+        },
+        {
+          "name": "scvi-tools",
+          "path": "skills/scvi-tools"
+        },
+        {
+          "name": "seaborn",
+          "path": "skills/seaborn"
+        },
+        {
+          "name": "shap",
+          "path": "skills/shap"
+        },
+        {
+          "name": "simpy",
+          "path": "skills/simpy"
+        },
+        {
+          "name": "stable-baselines3",
+          "path": "skills/stable-baselines3"
+        },
+        {
+          "name": "statistical-analysis",
+          "path": "skills/statistical-analysis"
+        },
+        {
+          "name": "statistical-power",
+          "path": "skills/statistical-power"
+        },
+        {
+          "name": "statsmodels",
+          "path": "skills/statsmodels"
+        },
+        {
+          "name": "sympy",
+          "path": "skills/sympy"
+        },
+        {
+          "name": "tamarind",
+          "path": "skills/tamarind"
+        },
+        {
+          "name": "tiledbvcf",
+          "path": "skills/tiledbvcf"
+        },
+        {
+          "name": "timesfm-forecasting",
+          "path": "skills/timesfm-forecasting"
+        },
+        {
+          "name": "torch-geometric",
+          "path": "skills/torch-geometric"
+        },
+        {
+          "name": "torchdrug",
+          "path": "skills/torchdrug"
+        },
+        {
+          "name": "transformers",
+          "path": "skills/transformers"
+        },
+        {
+          "name": "treatment-plans",
+          "path": "skills/treatment-plans"
+        },
+        {
+          "name": "umap-learn",
+          "path": "skills/umap-learn"
+        },
+        {
+          "name": "uncertainty-and-units",
+          "path": "skills/uncertainty-and-units"
+        },
+        {
+          "name": "usfiscaldata",
+          "path": "skills/usfiscaldata"
+        },
+        {
+          "name": "vaex",
+          "path": "skills/vaex"
+        },
+        {
+          "name": "venue-templates",
+          "path": "skills/venue-templates"
+        },
+        {
+          "name": "waypoint-bio",
+          "path": "skills/waypoint-bio"
+        },
+        {
+          "name": "what-if-oracle",
+          "path": "skills/what-if-oracle"
+        },
+        {
+          "name": "xlsx",
+          "path": "skills/xlsx"
+        },
+        {
+          "name": "zarr-python",
+          "path": "skills/zarr-python"
+        }
+      ]
+    },
+    {
+      "alias": "nature",
+      "repo": "Yuan1z0825/nature-skills",
+      "commit": "84880815fb37317b3766bff2c2abba395b8993c3",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "nature-academic-search",
+          "path": "skills/nature-academic-search",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-citation",
+          "path": "skills/nature-citation",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-data",
+          "path": "skills/nature-data",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-downloader",
+          "path": "skills/nature-downloader",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-experiment-log",
+          "path": "skills/nature-experiment-log",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-figure",
+          "path": "skills/nature-figure",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-image2ppt",
+          "path": "skills/nature-image2ppt",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-literature-pipeline",
+          "path": "skills/nature-literature-pipeline",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-paper-card",
+          "path": "skills/nature-paper-card",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-paper-to-patent",
+          "path": "skills/nature-paper-to-patent",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-paper2ppt",
+          "path": "skills/nature-paper2ppt",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-polishing",
+          "path": "skills/nature-polishing",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-proposal-writer",
+          "path": "skills/nature-proposal-writer",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-reader",
+          "path": "skills/nature-reader",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-ref-verifier",
+          "path": "skills/nature-ref-verifier",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-response",
+          "path": "skills/nature-response",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-reviewer",
+          "path": "skills/nature-reviewer",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-shared",
+          "path": "skills/nature-shared"
+        },
+        {
+          "name": "nature-statistics",
+          "path": "skills/nature-statistics",
+          "dependencies": [
+            "nature-shared"
+          ]
+        },
+        {
+          "name": "nature-writing",
+          "path": "skills/nature-writing",
+          "dependencies": [
+            "nature-shared"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "academic",
+      "repo": "Imbad0202/academic-research-skills-codex",
+      "commit": "70b412fe69d3b5bf6b16adf64a96160bdd3c2d28",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "academic-research-suite",
+          "path": "skills/academic-research-suite"
+        }
+      ]
+    },
+    {
+      "alias": "autoresearch",
+      "repo": "leo-lilinxiao/codex-autoresearch",
+      "commit": "0f54c571707487f59486ba7c50d405edfc746c19",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "codex-autoresearch",
+          "path": "."
+        }
+      ]
+    },
+    {
+      "alias": "zlanqing",
+      "repo": "zLanqing/codex-claude-academic-skills",
+      "commit": "7ed6377f0efb6a38951b48ef03b19d996e454b1f",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "office-academic-skill",
+          "path": "office-academic-skill"
+        },
+        {
+          "name": "research-writing-skill",
+          "path": "research-writing-skill"
+        },
+        {
+          "name": "scientific-toolkit-skill",
+          "path": "scientific-toolkit-skill"
+        }
+      ]
+    },
+    {
+      "alias": "aris",
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "ablation-planner",
+          "path": "skills/ablation-planner"
+        },
+        {
+          "name": "alphaxiv",
+          "path": "skills/alphaxiv"
+        },
+        {
+          "name": "analyze-results",
+          "path": "skills/analyze-results"
+        },
+        {
+          "name": "arxiv",
+          "path": "skills/arxiv"
+        },
+        {
+          "name": "auto-paper-improvement-loop",
+          "path": "skills/auto-paper-improvement-loop"
+        },
+        {
+          "name": "auto-review-loop-llm",
+          "path": "skills/auto-review-loop-llm"
+        },
+        {
+          "name": "auto-review-loop-minimax",
+          "path": "skills/auto-review-loop-minimax"
+        },
+        {
+          "name": "auto-review-loop",
+          "path": "skills/auto-review-loop"
+        },
+        {
+          "name": "citation-audit",
+          "path": "skills/citation-audit"
+        },
+        {
+          "name": "claims-drafting",
+          "path": "skills/claims-drafting"
+        },
+        {
+          "name": "comm-lit-review",
+          "path": "skills/comm-lit-review"
+        },
+        {
+          "name": "deepxiv",
+          "path": "skills/deepxiv"
+        },
+        {
+          "name": "dse-loop",
+          "path": "skills/dse-loop"
+        },
+        {
+          "name": "embodiment-description",
+          "path": "skills/embodiment-description"
+        },
+        {
+          "name": "exa-search",
+          "path": "skills/exa-search"
+        },
+        {
+          "name": "experiment-audit",
+          "path": "skills/experiment-audit"
+        },
+        {
+          "name": "experiment-bridge",
+          "path": "skills/experiment-bridge"
+        },
+        {
+          "name": "experiment-plan",
+          "path": "skills/experiment-plan"
+        },
+        {
+          "name": "experiment-queue",
+          "path": "skills/experiment-queue"
+        },
+        {
+          "name": "feishu-notify",
+          "path": "skills/feishu-notify"
+        },
+        {
+          "name": "figure-description",
+          "path": "skills/figure-description"
+        },
+        {
+          "name": "figure-spec",
+          "path": "skills/figure-spec"
+        },
+        {
+          "name": "formula-derivation",
+          "path": "skills/formula-derivation"
+        },
+        {
+          "name": "gemini-search",
+          "path": "skills/gemini-search"
+        },
+        {
+          "name": "grant-proposal",
+          "path": "skills/grant-proposal"
+        },
+        {
+          "name": "idea-creator",
+          "path": "skills/idea-creator"
+        },
+        {
+          "name": "idea-discovery-robot",
+          "path": "skills/idea-discovery-robot"
+        },
+        {
+          "name": "idea-discovery",
+          "path": "skills/idea-discovery"
+        },
+        {
+          "name": "integrity-forensics",
+          "path": "skills/integrity-forensics"
+        },
+        {
+          "name": "interview-cheatsheet",
+          "path": "skills/interview-cheatsheet"
+        },
+        {
+          "name": "invention-structuring",
+          "path": "skills/invention-structuring"
+        },
+        {
+          "name": "jurisdiction-format",
+          "path": "skills/jurisdiction-format"
+        },
+        {
+          "name": "kill-argument",
+          "path": "skills/kill-argument"
+        },
+        {
+          "name": "mermaid-diagram",
+          "path": "skills/mermaid-diagram"
+        },
+        {
+          "name": "meta-apply",
+          "path": "skills/meta-apply"
+        },
+        {
+          "name": "meta-optimize",
+          "path": "skills/meta-optimize"
+        },
+        {
+          "name": "monitor-experiment",
+          "path": "skills/monitor-experiment"
+        },
+        {
+          "name": "novelty-check",
+          "path": "skills/novelty-check"
+        },
+        {
+          "name": "openalex",
+          "path": "skills/openalex"
+        },
+        {
+          "name": "overleaf-sync",
+          "path": "skills/overleaf-sync"
+        },
+        {
+          "name": "paper-claim-audit",
+          "path": "skills/paper-claim-audit"
+        },
+        {
+          "name": "paper-compile",
+          "path": "skills/paper-compile"
+        },
+        {
+          "name": "paper-figure",
+          "path": "skills/paper-figure"
+        },
+        {
+          "name": "paper-illustration-image2",
+          "path": "skills/paper-illustration-image2"
+        },
+        {
+          "name": "paper-illustration",
+          "path": "skills/paper-illustration"
+        },
+        {
+          "name": "paper-plan",
+          "path": "skills/paper-plan"
+        },
+        {
+          "name": "paper-poster-html",
+          "path": "skills/paper-poster-html"
+        },
+        {
+          "name": "paper-poster",
+          "path": "skills/paper-poster"
+        },
+        {
+          "name": "paper-slides",
+          "path": "skills/paper-slides"
+        },
+        {
+          "name": "paper-talk",
+          "path": "skills/paper-talk"
+        },
+        {
+          "name": "paper-write",
+          "path": "skills/paper-write"
+        },
+        {
+          "name": "paper-writing",
+          "path": "skills/paper-writing"
+        },
+        {
+          "name": "patent-novelty-check",
+          "path": "skills/patent-novelty-check"
+        },
+        {
+          "name": "patent-pipeline",
+          "path": "skills/patent-pipeline"
+        },
+        {
+          "name": "patent-review",
+          "path": "skills/patent-review"
+        },
+        {
+          "name": "pixel-art",
+          "path": "skills/pixel-art"
+        },
+        {
+          "name": "prior-art-search",
+          "path": "skills/prior-art-search"
+        },
+        {
+          "name": "proof-checker",
+          "path": "skills/proof-checker"
+        },
+        {
+          "name": "proof-orchestrator",
+          "path": "skills/proof-orchestrator"
+        },
+        {
+          "name": "proof-writer",
+          "path": "skills/proof-writer"
+        },
+        {
+          "name": "qzcli",
+          "path": "skills/qzcli"
+        },
+        {
+          "name": "rebuttal",
+          "path": "skills/rebuttal"
+        },
+        {
+          "name": "render-html",
+          "path": "skills/render-html"
+        },
+        {
+          "name": "research-implement-feature",
+          "path": "skills/research-implement-feature"
+        },
+        {
+          "name": "research-lit",
+          "path": "skills/research-lit"
+        },
+        {
+          "name": "research-pipeline",
+          "path": "skills/research-pipeline"
+        },
+        {
+          "name": "research-refine-pipeline",
+          "path": "skills/research-refine-pipeline"
+        },
+        {
+          "name": "research-refine",
+          "path": "skills/research-refine"
+        },
+        {
+          "name": "research-review",
+          "path": "skills/research-review"
+        },
+        {
+          "name": "research-wiki",
+          "path": "skills/research-wiki"
+        },
+        {
+          "name": "resubmit-pipeline",
+          "path": "skills/resubmit-pipeline"
+        },
+        {
+          "name": "result-to-claim",
+          "path": "skills/result-to-claim"
+        },
+        {
+          "name": "run-experiment",
+          "path": "skills/run-experiment"
+        },
+        {
+          "name": "semantic-scholar",
+          "path": "skills/semantic-scholar"
+        },
+        {
+          "name": "serverless-modal",
+          "path": "skills/serverless-modal"
+        },
+        {
+          "name": "slides-polish",
+          "path": "skills/slides-polish"
+        },
+        {
+          "name": "specification-writing",
+          "path": "skills/specification-writing"
+        },
+        {
+          "name": "system-profile",
+          "path": "skills/system-profile"
+        },
+        {
+          "name": "training-check",
+          "path": "skills/training-check"
+        },
+        {
+          "name": "vast-gpu",
+          "path": "skills/vast-gpu"
+        },
+        {
+          "name": "web-debug-search",
+          "path": "skills/web-debug-search"
+        },
+        {
+          "name": "wiki-enrich",
+          "path": "skills/wiki-enrich"
+        },
+        {
+          "name": "writing-systems-papers",
+          "path": "skills/writing-systems-papers"
+        }
+      ]
+    },
+    {
+      "alias": "orchestra",
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "0-autoresearch-skill",
+          "path": "0-autoresearch-skill"
+        },
+        {
+          "name": "litgpt",
+          "path": "01-model-architecture/litgpt"
+        },
+        {
+          "name": "mamba",
+          "path": "01-model-architecture/mamba"
+        },
+        {
+          "name": "nanogpt",
+          "path": "01-model-architecture/nanogpt"
+        },
+        {
+          "name": "rwkv",
+          "path": "01-model-architecture/rwkv"
+        },
+        {
+          "name": "torchtitan",
+          "path": "01-model-architecture/torchtitan"
+        },
+        {
+          "name": "huggingface-tokenizers",
+          "path": "02-tokenization/huggingface-tokenizers"
+        },
+        {
+          "name": "sentencepiece",
+          "path": "02-tokenization/sentencepiece"
+        },
+        {
+          "name": "axolotl",
+          "path": "03-fine-tuning/axolotl"
+        },
+        {
+          "name": "llama-factory",
+          "path": "03-fine-tuning/llama-factory"
+        },
+        {
+          "name": "peft",
+          "path": "03-fine-tuning/peft"
+        },
+        {
+          "name": "unsloth",
+          "path": "03-fine-tuning/unsloth"
+        },
+        {
+          "name": "nnsight",
+          "path": "04-mechanistic-interpretability/nnsight"
+        },
+        {
+          "name": "pyvene",
+          "path": "04-mechanistic-interpretability/pyvene"
+        },
+        {
+          "name": "saelens",
+          "path": "04-mechanistic-interpretability/saelens"
+        },
+        {
+          "name": "transformer-lens",
+          "path": "04-mechanistic-interpretability/transformer-lens"
+        },
+        {
+          "name": "nemo-curator",
+          "path": "05-data-processing/nemo-curator"
+        },
+        {
+          "name": "ray-data",
+          "path": "05-data-processing/ray-data"
+        },
+        {
+          "name": "grpo-rl-training",
+          "path": "06-post-training/grpo-rl-training"
+        },
+        {
+          "name": "miles",
+          "path": "06-post-training/miles"
+        },
+        {
+          "name": "openrlhf",
+          "path": "06-post-training/openrlhf"
+        },
+        {
+          "name": "simpo",
+          "path": "06-post-training/simpo"
+        },
+        {
+          "name": "slime",
+          "path": "06-post-training/slime"
+        },
+        {
+          "name": "torchforge",
+          "path": "06-post-training/torchforge"
+        },
+        {
+          "name": "trl-fine-tuning",
+          "path": "06-post-training/trl-fine-tuning"
+        },
+        {
+          "name": "verl",
+          "path": "06-post-training/verl"
+        },
+        {
+          "name": "constitutional-ai",
+          "path": "07-safety-alignment/constitutional-ai"
+        },
+        {
+          "name": "llamaguard",
+          "path": "07-safety-alignment/llamaguard"
+        },
+        {
+          "name": "nemo-guardrails",
+          "path": "07-safety-alignment/nemo-guardrails"
+        },
+        {
+          "name": "prompt-guard",
+          "path": "07-safety-alignment/prompt-guard"
+        },
+        {
+          "name": "accelerate",
+          "path": "08-distributed-training/accelerate"
+        },
+        {
+          "name": "deepspeed",
+          "path": "08-distributed-training/deepspeed"
+        },
+        {
+          "name": "megatron-core",
+          "path": "08-distributed-training/megatron-core"
+        },
+        {
+          "name": "pytorch-fsdp2",
+          "path": "08-distributed-training/pytorch-fsdp2"
+        },
+        {
+          "name": "pytorch-lightning",
+          "path": "08-distributed-training/pytorch-lightning"
+        },
+        {
+          "name": "ray-train",
+          "path": "08-distributed-training/ray-train"
+        },
+        {
+          "name": "lambda-labs",
+          "path": "09-infrastructure/lambda-labs"
+        },
+        {
+          "name": "modal",
+          "path": "09-infrastructure/modal"
+        },
+        {
+          "name": "skypilot",
+          "path": "09-infrastructure/skypilot"
+        },
+        {
+          "name": "awq",
+          "path": "10-optimization/awq"
+        },
+        {
+          "name": "bitsandbytes",
+          "path": "10-optimization/bitsandbytes"
+        },
+        {
+          "name": "flash-attention",
+          "path": "10-optimization/flash-attention"
+        },
+        {
+          "name": "gguf",
+          "path": "10-optimization/gguf"
+        },
+        {
+          "name": "gptq",
+          "path": "10-optimization/gptq"
+        },
+        {
+          "name": "hqq",
+          "path": "10-optimization/hqq"
+        },
+        {
+          "name": "ml-training-recipes",
+          "path": "10-optimization/ml-training-recipes"
+        },
+        {
+          "name": "bigcode-evaluation-harness",
+          "path": "11-evaluation/bigcode-evaluation-harness"
+        },
+        {
+          "name": "lm-evaluation-harness",
+          "path": "11-evaluation/lm-evaluation-harness"
+        },
+        {
+          "name": "nemo-evaluator",
+          "path": "11-evaluation/nemo-evaluator"
+        },
+        {
+          "name": "llama-cpp",
+          "path": "12-inference-serving/llama-cpp"
+        },
+        {
+          "name": "sglang",
+          "path": "12-inference-serving/sglang"
+        },
+        {
+          "name": "tensorrt-llm",
+          "path": "12-inference-serving/tensorrt-llm"
+        },
+        {
+          "name": "vllm",
+          "path": "12-inference-serving/vllm"
+        },
+        {
+          "name": "mlflow",
+          "path": "13-mlops/mlflow"
+        },
+        {
+          "name": "swanlab",
+          "path": "13-mlops/swanlab"
+        },
+        {
+          "name": "tensorboard",
+          "path": "13-mlops/tensorboard"
+        },
+        {
+          "name": "weights-and-biases",
+          "path": "13-mlops/weights-and-biases"
+        },
+        {
+          "name": "a-evolve",
+          "path": "14-agents/a-evolve"
+        },
+        {
+          "name": "autogpt",
+          "path": "14-agents/autogpt"
+        },
+        {
+          "name": "crewai",
+          "path": "14-agents/crewai"
+        },
+        {
+          "name": "langchain",
+          "path": "14-agents/langchain"
+        },
+        {
+          "name": "llamaindex",
+          "path": "14-agents/llamaindex"
+        },
+        {
+          "name": "chroma",
+          "path": "15-rag/chroma"
+        },
+        {
+          "name": "faiss",
+          "path": "15-rag/faiss"
+        },
+        {
+          "name": "pinecone",
+          "path": "15-rag/pinecone"
+        },
+        {
+          "name": "qdrant",
+          "path": "15-rag/qdrant"
+        },
+        {
+          "name": "sentence-transformers",
+          "path": "15-rag/sentence-transformers"
+        },
+        {
+          "name": "dspy",
+          "path": "16-prompt-engineering/dspy"
+        },
+        {
+          "name": "guidance",
+          "path": "16-prompt-engineering/guidance"
+        },
+        {
+          "name": "instructor",
+          "path": "16-prompt-engineering/instructor"
+        },
+        {
+          "name": "outlines",
+          "path": "16-prompt-engineering/outlines"
+        },
+        {
+          "name": "langsmith",
+          "path": "17-observability/langsmith"
+        },
+        {
+          "name": "phoenix",
+          "path": "17-observability/phoenix"
+        },
+        {
+          "name": "audiocraft",
+          "path": "18-multimodal/audiocraft"
+        },
+        {
+          "name": "blip-2",
+          "path": "18-multimodal/blip-2"
+        },
+        {
+          "name": "clip",
+          "path": "18-multimodal/clip"
+        },
+        {
+          "name": "cosmos-policy",
+          "path": "18-multimodal/cosmos-policy"
+        },
+        {
+          "name": "llava",
+          "path": "18-multimodal/llava"
+        },
+        {
+          "name": "openpi",
+          "path": "18-multimodal/openpi"
+        },
+        {
+          "name": "openvla-oft",
+          "path": "18-multimodal/openvla-oft"
+        },
+        {
+          "name": "segment-anything",
+          "path": "18-multimodal/segment-anything"
+        },
+        {
+          "name": "stable-diffusion",
+          "path": "18-multimodal/stable-diffusion"
+        },
+        {
+          "name": "whisper",
+          "path": "18-multimodal/whisper"
+        },
+        {
+          "name": "knowledge-distillation",
+          "path": "19-emerging-techniques/knowledge-distillation"
+        },
+        {
+          "name": "long-context",
+          "path": "19-emerging-techniques/long-context"
+        },
+        {
+          "name": "model-merging",
+          "path": "19-emerging-techniques/model-merging"
+        },
+        {
+          "name": "model-pruning",
+          "path": "19-emerging-techniques/model-pruning"
+        },
+        {
+          "name": "moe-training",
+          "path": "19-emerging-techniques/moe-training"
+        },
+        {
+          "name": "speculative-decoding",
+          "path": "19-emerging-techniques/speculative-decoding"
+        },
+        {
+          "name": "academic-plotting",
+          "path": "20-ml-paper-writing/academic-plotting"
+        },
+        {
+          "name": "ml-paper-writing",
+          "path": "20-ml-paper-writing/ml-paper-writing"
+        },
+        {
+          "name": "presenting-conference-talks",
+          "path": "20-ml-paper-writing/presenting-conference-talks"
+        },
+        {
+          "name": "systems-paper-writing",
+          "path": "20-ml-paper-writing/systems-paper-writing"
+        },
+        {
+          "name": "brainstorming-research-ideas",
+          "path": "21-research-ideation/brainstorming-research-ideas"
+        },
+        {
+          "name": "creative-thinking-for-research",
+          "path": "21-research-ideation/creative-thinking-for-research"
+        },
+        {
+          "name": "compiler",
+          "path": "22-agent-native-research-artifact/compiler"
+        },
+        {
+          "name": "research-manager",
+          "path": "22-agent-native-research-artifact/research-manager"
+        },
+        {
+          "name": "rigor-reviewer",
+          "path": "22-agent-native-research-artifact/rigor-reviewer"
+        }
+      ]
+    },
+    {
+      "alias": "social",
+      "repo": "fakerqwq/social-science-paper-writing-skill",
+      "commit": "6f4e06d261e353f57424dee51cdc471c82bc1320",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "social-science-paper-writing-skill",
+          "path": "social-science-paper-writing-skill"
+        }
+      ]
+    },
+    {
+      "alias": "digest",
+      "repo": "xuezheng627/daily-literature-digest-skill",
+      "commit": "87dab63ce428810ef9395c3ac41185e3a6b9ca75",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "daily-literature-digest",
+          "path": "daily-literature-digest"
+        }
+      ]
+    },
+    {
+      "alias": "vault",
+      "repo": "xuezheng627/research-radar-paper-vault",
+      "commit": "e905d1fb7c638d189dd0ba1a1b535e1ff54b1af0",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "daily-literature-digest",
+          "path": "daily-literature-digest"
+        },
+        {
+          "name": "paper-vault",
+          "path": "paper-vault"
+        }
+      ]
+    },
+    {
+      "alias": "slides",
+      "repo": "zarazhangrui/frontend-slides",
+      "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "frontend-slides",
+          "path": "."
+        }
+      ]
+    },
+    {
+      "alias": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "commit": "114ea1d3838fca73b253af45f873b9c4f5f213c8",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "impeccable",
+          "path": ".agents/skills/impeccable"
+        }
+      ]
+    },
+    {
+      "alias": "uiux",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "09170eec67eefd46a7ae85de61b40c194020f997",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "banner-design",
+          "path": ".claude/skills/banner-design"
+        },
+        {
+          "name": "brand",
+          "path": ".claude/skills/brand"
+        },
+        {
+          "name": "design-system",
+          "path": ".claude/skills/design-system"
+        },
+        {
+          "name": "design",
+          "path": ".claude/skills/design"
+        },
+        {
+          "name": "slides",
+          "path": ".claude/skills/slides"
+        },
+        {
+          "name": "ui-styling",
+          "path": ".claude/skills/ui-styling"
+        },
+        {
+          "name": "ui-ux-pro-max",
+          "path": ".claude/skills/ui-ux-pro-max"
+        }
+      ]
+    },
+    {
+      "alias": "vercel",
+      "repo": "vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "composition-patterns",
+          "path": "skills/composition-patterns"
+        },
+        {
+          "name": "deploy-to-vercel",
+          "path": "skills/deploy-to-vercel"
+        },
+        {
+          "name": "react-best-practices",
+          "path": "skills/react-best-practices"
+        },
+        {
+          "name": "react-native-skills",
+          "path": "skills/react-native-skills"
+        },
+        {
+          "name": "react-view-transitions",
+          "path": "skills/react-view-transitions"
+        },
+        {
+          "name": "vercel-cli-with-tokens",
+          "path": "skills/vercel-cli-with-tokens"
+        },
+        {
+          "name": "vercel-optimize",
+          "path": "skills/vercel-optimize"
+        },
+        {
+          "name": "web-design-guidelines",
+          "path": "skills/web-design-guidelines"
+        },
+        {
+          "name": "writing-guidelines",
+          "path": "skills/writing-guidelines"
+        }
+      ]
+    },
+    {
+      "alias": "anthropic",
+      "repo": "anthropics/skills",
+      "commit": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "academy-guide",
+          "path": "skills/academy-guide"
+        },
+        {
+          "name": "algorithmic-art",
+          "path": "skills/algorithmic-art"
+        },
+        {
+          "name": "brand-guidelines",
+          "path": "skills/brand-guidelines"
+        },
+        {
+          "name": "canvas-design",
+          "path": "skills/canvas-design"
+        },
+        {
+          "name": "claude-api",
+          "path": "skills/claude-api"
+        },
+        {
+          "name": "discernment-nudge",
+          "path": "skills/discernment-nudge"
+        },
+        {
+          "name": "doc-coauthoring",
+          "path": "skills/doc-coauthoring"
+        },
+        {
+          "name": "docx",
+          "path": "skills/docx"
+        },
+        {
+          "name": "frontend-design",
+          "path": "skills/frontend-design"
+        },
+        {
+          "name": "internal-comms",
+          "path": "skills/internal-comms"
+        },
+        {
+          "name": "mcp-builder",
+          "path": "skills/mcp-builder"
+        },
+        {
+          "name": "pdf",
+          "path": "skills/pdf"
+        },
+        {
+          "name": "pptx",
+          "path": "skills/pptx"
+        },
+        {
+          "name": "skill-creator",
+          "path": "skills/skill-creator"
+        },
+        {
+          "name": "slack-gif-creator",
+          "path": "skills/slack-gif-creator"
+        },
+        {
+          "name": "theme-factory",
+          "path": "skills/theme-factory"
+        },
+        {
+          "name": "web-artifacts-builder",
+          "path": "skills/web-artifacts-builder"
+        },
+        {
+          "name": "webapp-testing",
+          "path": "skills/webapp-testing"
+        },
+        {
+          "name": "xlsx",
+          "path": "skills/xlsx"
+        }
+      ]
+    }
+  ]
+}
