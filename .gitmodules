@@ -1,0 +1,4 @@
+[submodule "sources/nature-skills"]
+	path = sources/nature-skills
+	url = https://github.com/Yuan1z0825/nature-skills.git
+	branch = main
