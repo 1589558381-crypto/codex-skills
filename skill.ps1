@@ -39,7 +39,7 @@ function Normalize-Selector {
 
     $result = [ordered]@{ Source = $ExplicitSource; Skill = $Selector }
     if (-not $ExplicitSource -and $Selector -and $Selector.Contains("/")) {
-        $parts = $Selector.Split("/", 2)
+        $parts = $Selector -split "/", 2
         $result.Source = $parts[0]
         $result.Skill = $parts[1]
     }
@@ -118,7 +118,7 @@ function Get-DependencyPlan {
     }
 
     Add-SkillWithDependencies -Skill $SkillObject
-    return @($plan)
+    return $plan.ToArray()
 }
 
 function Assert-Git {
