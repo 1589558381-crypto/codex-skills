@@ -156,7 +156,11 @@ function Install-SkillSet {
     try {
         Invoke-Git -Arguments @("clone","--filter=blob:none","--no-checkout",$repoUrl,$tempRoot)
 
-        $paths = @($Skills | ForEach-Object { $_.path } | Sort-Object -Unique)
+        $paths = @($Skills | ForEach-Object { $_.path })
+        if ($SourceObject.PSObject.Properties.Name -contains "supportPaths") {
+            $paths += @($SourceObject.supportPaths)
+        }
+        $paths = @($paths | Sort-Object -Unique)
         if (-not ($paths -contains ".")) {
             Invoke-Git -Arguments @("-C",$tempRoot,"sparse-checkout","init","--cone")
             $args = @("-C",$tempRoot,"sparse-checkout","set","--cone","--") + $paths
@@ -164,6 +168,30 @@ function Install-SkillSet {
         }
 
         Invoke-Git -Arguments @("-C",$tempRoot,"checkout","--detach",$SourceObject.commit)
+
+        if ($SourceObject.PSObject.Properties.Name -contains "supportPaths") {
+            foreach ($supportPath in @($SourceObject.supportPaths)) {
+                $relativeSupportPath = $supportPath -replace "/", [IO.Path]::DirectorySeparatorChar
+                $sourceSupportPath = Join-Path $tempRoot $relativeSupportPath
+                $targetSupportPath = Join-Path $InstallRoot $relativeSupportPath
+
+                if (-not (Test-Path $sourceSupportPath)) {
+                    throw "Missing support path: $($SourceObject.repo):$supportPath"
+                }
+
+                if (Test-Path $targetSupportPath) {
+                    if (-not $Overwrite) {
+                        Write-Host "Skip existing support: $supportPath (use -Force to replace)"
+                        continue
+                    }
+                    Remove-Item -Recurse -Force $targetSupportPath
+                }
+
+                New-Item -ItemType Directory -Force -Path (Split-Path -Parent $targetSupportPath) | Out-Null
+                Copy-Item -Recurse -Force -Path $sourceSupportPath -Destination $targetSupportPath
+                Write-Host "Installed shared support: $supportPath"
+            }
+        }
 
         foreach ($skill in $Skills) {
             $relativePath = $skill.path -replace "/", [IO.Path]::DirectorySeparatorChar

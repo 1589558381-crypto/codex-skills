@@ -1831,6 +1831,93 @@
           "path": "skills/xlsx"
         }
       ]
+    },
+    {
+      "alias": "cnki",
+      "repo": "cfh-7598/cnki-codex-skills",
+      "commit": "b163d02f759da2b8df66ced5cda5bbba0263f7e7",
+      "branch": "main",
+      "supportPaths": [
+        "_shared/cnki"
+      ],
+      "skills": [
+        {
+          "name": "cnki-advanced-search-codex",
+          "path": "cnki-advanced-search-codex"
+        },
+        {
+          "name": "cnki-codex",
+          "path": "cnki-codex",
+          "dependencies": [
+            "cnki-advanced-search-codex",
+            "cnki-collect-details-codex",
+            "cnki-doctoral-search-codex",
+            "cnki-download-codex",
+            "cnki-export-codex",
+            "cnki-journal-index-codex",
+            "cnki-journal-search-codex",
+            "cnki-journal-toc-codex",
+            "cnki-master-search-codex",
+            "cnki-navigate-pages-codex",
+            "cnki-paper-detail-codex",
+            "cnki-parse-results-codex",
+            "cnki-search-codex",
+            "cnki-thesis-search-codex"
+          ]
+        },
+        {
+          "name": "cnki-collect-details-codex",
+          "path": "cnki-collect-details-codex"
+        },
+        {
+          "name": "cnki-doctoral-search-codex",
+          "path": "cnki-doctoral-search-codex"
+        },
+        {
+          "name": "cnki-download-codex",
+          "path": "cnki-download-codex"
+        },
+        {
+          "name": "cnki-export-codex",
+          "path": "cnki-export-codex"
+        },
+        {
+          "name": "cnki-journal-index-codex",
+          "path": "cnki-journal-index-codex"
+        },
+        {
+          "name": "cnki-journal-search-codex",
+          "path": "cnki-journal-search-codex"
+        },
+        {
+          "name": "cnki-journal-toc-codex",
+          "path": "cnki-journal-toc-codex"
+        },
+        {
+          "name": "cnki-master-search-codex",
+          "path": "cnki-master-search-codex"
+        },
+        {
+          "name": "cnki-navigate-pages-codex",
+          "path": "cnki-navigate-pages-codex"
+        },
+        {
+          "name": "cnki-paper-detail-codex",
+          "path": "cnki-paper-detail-codex"
+        },
+        {
+          "name": "cnki-parse-results-codex",
+          "path": "cnki-parse-results-codex"
+        },
+        {
+          "name": "cnki-search-codex",
+          "path": "cnki-search-codex"
+        },
+        {
+          "name": "cnki-thesis-search-codex",
+          "path": "cnki-thesis-search-codex"
+        }
+      ]
     }
   ]
 }

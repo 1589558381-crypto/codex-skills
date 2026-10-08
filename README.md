@@ -2,7 +2,7 @@
 
 A project-local Codex skill library and unified PowerShell skill manager.
 
-The repository tracks 15 external skill sources and exposes 413 normalized skills through one command. Skills are installed only into the current project's `.agents/skills/` directory. Nothing is installed into the global Codex configuration.
+The repository tracks 16 external skill sources and exposes 428 normalized skills through one command. Skills are installed only into the current project's `.agents/skills/` directory. Nothing is installed into the global Codex configuration.
 
 ## Quick start for PowerShell
 
@@ -121,6 +121,30 @@ Qualified selectors use:
 | `uiux` | nextlevelbuilder/ui-ux-pro-max-skill |
 | `vercel` | vercel-labs/agent-skills |
 | `anthropic` | anthropics/skills |
+| `cnki` | cfh-7598/cnki-codex-skills |
+
+## CNKI literature skills
+
+The \`cnki\` source contains 15 Codex skills for CNKI literature and journal workflows. Install the full suite (including the \`cnki-codex\` router) into the current project's \`.agents/skills/\` directory:
+
+\`\`\`powershell
+.\skill.ps1 install cnki-codex
+# or: .\skill.ps1 install-source cnki
+\`\`\`
+
+The installer automatically copies the required shared Python runtime to \`.agents/skills/_shared/cnki/\`. Install the Python dependency separately:
+
+\`\`\`powershell
+python -m pip install "playwright>=1.51,<2"
+\`\`\`
+
+To run the search wrapper from the project root:
+
+\`\`\`powershell
+python .agents/skills/cnki-search-codex/scripts/run.py --query "人工智能"
+\`\`\`
+
+The browser workflow requires Chrome started with remote debugging (\`--remote-debugging-port=9222\`) and any required CNKI login completed manually. It does not bypass account permissions or captchas. Zotero is only required for its export mode.
 
 ## Repository layout
 
