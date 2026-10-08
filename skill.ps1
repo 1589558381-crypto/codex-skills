@@ -225,12 +225,13 @@ function Install-SkillSet {
                 $skillText = Get-Content -Raw -Encoding UTF8 -Path $skillDocument
                 $originalLine = "name: $($skill.rewriteFrontmatterName)"
                 $newLine = "name: $($skill.name)"
-                $linePattern = "(?m)^" + [regex]::Escape($originalLine) + "\s*$"
-                if (-not [regex]::IsMatch($skillText, $linePattern)) {
+                $linePattern = "(?m)^" + [regex]::Escape($originalLine) + "(?=\r?$)"
+                $matcher = [regex]::new($linePattern)
+                if (-not $matcher.IsMatch($skillText)) {
                     throw "Cannot normalize declared name for $($skill.name): expected $originalLine"
                 }
-                $skillText = [regex]::Replace($skillText, $linePattern, $newLine, 1)
-                [System.IO.File]::WriteAllText($skillDocument, $skillText, (New-Object System.Text.UTF8Encoding($false)))
+                $skillText = $matcher.Replace($skillText, $newLine, 1)
+                [System.IO.File]::WriteAllText($skillDocument, $skillText, [System.Text.UTF8Encoding]::new($false))
             }
 
             $marker = [ordered]@{
