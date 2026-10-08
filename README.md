@@ -125,26 +125,26 @@ Qualified selectors use:
 
 ## CNKI literature skills
 
-The \`cnki\` source contains 15 Codex skills for CNKI literature and journal workflows. Install the full suite (including the \`cnki-codex\` router) into the current project's \`.agents/skills/\` directory:
+The `cnki` source contains 15 Codex skills for CNKI literature and journal workflows. Install the full suite (including the `cnki-codex` router) into the current project's `.agents/skills/` directory:
 
-\`\`\`powershell
+```powershell
 .\skill.ps1 install cnki-codex
 # or: .\skill.ps1 install-source cnki
-\`\`\`
+```
 
-The installer automatically copies the required shared Python runtime to \`.agents/skills/_shared/cnki/\`. Install the Python dependency separately:
+The installer automatically copies the required shared Python runtime to `.agents/skills/_shared/cnki/`. Install the Python dependency separately:
 
-\`\`\`powershell
+```powershell
 python -m pip install "playwright>=1.51,<2"
-\`\`\`
+```
 
 To run the search wrapper from the project root:
 
-\`\`\`powershell
+```powershell
 python .agents/skills/cnki-search-codex/scripts/run.py --query "人工智能"
-\`\`\`
+```
 
-The browser workflow requires Chrome started with remote debugging (\`--remote-debugging-port=9222\`) and any required CNKI login completed manually. It does not bypass account permissions or captchas. Zotero is only required for its export mode.
+The browser workflow requires Chrome started with remote debugging (`--remote-debugging-port=9222`) and any required CNKI login completed manually. It does not bypass account permissions or captchas. Zotero is only required for its export mode.
 
 ## Repository layout
 

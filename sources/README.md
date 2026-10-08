@@ -19,8 +19,8 @@ These repositories are tracked as Git submodules. They are source libraries only
 | nextlevelbuilder/ui-ux-pro-max-skill | `sources/ui-ux-pro-max-skill` | `09170eec67eefd46a7ae85de61b40c194020f997` | MIT |
 | vercel-labs/agent-skills | `sources/agent-skills` | `063bee94c3f4df8453406c830b0a7df0f2860278` | not detected |
 | anthropics/skills | `sources/anthropics-skills` | `8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4` | not detected |
-
 | cfh-7598/cnki-codex-skills | `sources/cnki-codex-skills` | `b163d02f759da2b8df66ced5cda5bbba0263f7e7` | MIT |
+
 Clone this repository with all external sources:
 
 ```powershell
