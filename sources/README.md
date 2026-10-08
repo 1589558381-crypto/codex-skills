@@ -5,6 +5,7 @@ These repositories are tracked as Git submodules. They are source libraries only
 | Source | Local path | Pinned commit | GitHub license metadata |
 |---|---|---|---|
 | K-Dense-AI/scientific-agent-skills | `sources/scientific-agent-skills` | `065b734670d7d990627dbc06a05b5a99be33f1f1` | MIT |
+| aipoch/medical-research-skills | `sources/medical-research-skills` | `686e09dfdb45d9fa1a08664f06bb93769b3c9d91` | MIT |
 | Yuan1z0825/nature-skills | `sources/nature-skills` | `84880815fb37317b3766bff2c2abba395b8993c3` | Apache-2.0 |
 | Imbad0202/academic-research-skills-codex | `sources/academic-research-skills-codex` | `70b412fe69d3b5bf6b16adf64a96160bdd3c2d28` | NOASSERTION |
 | leo-lilinxiao/codex-autoresearch | `sources/codex-autoresearch` | `0f54c571707487f59486ba7c50d405edfc746c19` | MIT |

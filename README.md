@@ -2,7 +2,7 @@
 
 A project-local Codex skill library and unified PowerShell skill manager.
 
-The repository tracks 16 external skill sources and exposes 428 normalized skills through one command. Skills are installed only into the current project's `.agents/skills/` directory. Nothing is installed into the global Codex configuration.
+The repository tracks 17 external skill sources and exposes 1,033 normalized skills through one command. Skills are installed only into the current project's `.agents/skills/` directory. Nothing is installed into the global Codex configuration.
 
 ## Quick start for PowerShell
 
@@ -107,6 +107,7 @@ Qualified selectors use:
 | Alias | Repository |
 |---|---|
 | `kdense` | K-Dense-AI/scientific-agent-skills |
+| `aipoch` | aipoch/medical-research-skills |
 | `nature` | Yuan1z0825/nature-skills |
 | `academic` | Imbad0202/academic-research-skills-codex |
 | `autoresearch` | leo-lilinxiao/codex-autoresearch |
@@ -145,6 +146,31 @@ python .agents/skills/cnki-search-codex/scripts/run.py --query "人工智能"
 ```
 
 The browser workflow requires Chrome started with remote debugging (`--remote-debugging-port=9222`) and any required CNKI login completed manually. It does not bypass account permissions or captchas. Zotero is only required for its export mode.
+
+## AIPOCH medical research skills
+
+The `aipoch` source contains **605 indexed skills** across medical research, evidence appraisal, protocol design, data analysis, and academic writing. All skills are tracked as a pinned Git submodule; the existing `kdense` scientific skills source remains available unchanged.
+
+```powershell
+# List medical research skills
+.\skill.ps1 list aipoch
+
+# Find a medical research skill
+.\skill.ps1 search medical
+
+# Install one medical skill into this project
+.\skill.ps1 install aipoch/medical-research-gap-finder
+
+# Install all AIPOCH skills into this project (large download)
+.\skill.ps1 install-source aipoch
+
+# Install an existing K-Dense skill into this project
+.\skill.ps1 install kdense/literature-review
+```
+
+The installer copies only selected skill directories into the project's `.agents/skills/` and uses `git sparse-checkout --stdin` for large batches, including paths containing spaces. The source repository itself is tracked under `sources/medical-research-skills/`. Source-qualified selectors (`aipoch/<skill>`, `kdense/<skill>`) resolve overlapping skill names. One AIPOCH cover-letter skill has a unique installed name (`scientific-cover-letter-drafter`) to distinguish two separate source entries.
+
+Third-party skills may require additional local software, API credentials, or datasets. Review their instructions and code before executing them; adding them to this catalog does not install dependencies or grant external access.
 
 ## Repository layout
 

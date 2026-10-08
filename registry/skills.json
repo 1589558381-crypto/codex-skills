@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedFrom": "GitHub main branches pinned on 2026-09-29",
+  "generatedFrom": "GitHub main branches pinned at recorded commits (last indexed 2026-10-08)",
   "installRoot": ".agents/skills",
   "sources": [
     {
@@ -1916,6 +1916,2435 @@
         {
           "name": "cnki-thesis-search-codex",
           "path": "cnki-thesis-search-codex"
+        }
+      ]
+    },
+    {
+      "alias": "aipoch",
+      "repo": "aipoch/medical-research-skills",
+      "commit": "686e09dfdb45d9fa1a08664f06bb93769b3c9d91",
+      "branch": "main",
+      "skills": [
+        {
+          "name": "3d-molecule-ray-tracer",
+          "path": "scientific-skills/Data Analysis/3d-molecule-ray-tracer"
+        },
+        {
+          "name": "abstract-summarizer",
+          "path": "scientific-skills/Academic Writing/abstract-summarizer"
+        },
+        {
+          "name": "abstract-trimmer",
+          "path": "scientific-skills/Academic Writing/abstract-trimmer"
+        },
+        {
+          "name": "academic-abstract-refiner",
+          "path": "scientific-skills/Academic Writing/academic-abstract-refiner"
+        },
+        {
+          "name": "academic-cv-generator",
+          "path": "scientific-skills/Other/academic-cv-generator"
+        },
+        {
+          "name": "academic-highlight-generator",
+          "path": "scientific-skills/Academic Writing/academic-highlight-generator"
+        },
+        {
+          "name": "academic-norm-review",
+          "path": "scientific-skills/Other/academic-norm-review"
+        },
+        {
+          "name": "academic-poster-generator",
+          "path": "scientific-skills/Other/academic-poster-generator"
+        },
+        {
+          "name": "acronym-unpacker",
+          "path": "scientific-skills/Evidence Insight/acronym-unpacker"
+        },
+        {
+          "name": "active-comparator-single-soc-faers-safety-comparison",
+          "path": "awesome-med-research-skills/Protocol Design/active-comparator-single-soc-faers-safety-comparison"
+        },
+        {
+          "name": "adaptive-trial-simulator",
+          "path": "scientific-skills/Protocol Design/adaptive-trial-simulator"
+        },
+        {
+          "name": "adaptyv",
+          "path": "scientific-skills/Other/adaptyv"
+        },
+        {
+          "name": "adme-property-predictor",
+          "path": "scientific-skills/Data Analysis/adme-property-predictor"
+        },
+        {
+          "name": "adverse-event-narrative",
+          "path": "scientific-skills/Academic Writing/adverse-event-narrative"
+        },
+        {
+          "name": "aim-and-hypothesis-designer",
+          "path": "awesome-med-research-skills/Protocol Design/aim-and-hypothesis-designer"
+        },
+        {
+          "name": "alphafold-db",
+          "path": "scientific-skills/Evidence Insight/alphafold-db"
+        },
+        {
+          "name": "anatomy-quiz-master",
+          "path": "scientific-skills/Academic Writing/anatomy-quiz-master"
+        },
+        {
+          "name": "animal-and-cell-validation-planner",
+          "path": "awesome-med-research-skills/Protocol Design/animal-and-cell-validation-planner"
+        },
+        {
+          "name": "anki-card-creator",
+          "path": "scientific-skills/Academic Writing/anki-card-creator"
+        },
+        {
+          "name": "anndata",
+          "path": "scientific-skills/Data Analysis/anndata"
+        },
+        {
+          "name": "api-design-principles",
+          "path": "scientific-skills/Other/api-design-principles"
+        },
+        {
+          "name": "arboreto",
+          "path": "scientific-skills/Evidence Insight/arboreto"
+        },
+        {
+          "name": "article-format-adjustment",
+          "path": "scientific-skills/Other/article-format-adjustment"
+        },
+        {
+          "name": "arxiv-database",
+          "path": "scientific-skills/Evidence Insight/arxiv-database"
+        },
+        {
+          "name": "arxiv-preflight",
+          "path": "awesome-med-research-skills/Academic Writing/arxiv-preflight"
+        },
+        {
+          "name": "author-response-builder",
+          "path": "awesome-med-research-skills/Academic Writing/author-response-builder"
+        },
+        {
+          "name": "authorship-credit-gen",
+          "path": "scientific-skills/Academic Writing/authorship-credit-gen"
+        },
+        {
+          "name": "automated-soap-note-generator",
+          "path": "scientific-skills/Academic Writing/automated-soap-note-generator"
+        },
+        {
+          "name": "baseline-extraction-for-clinical-trials",
+          "path": "scientific-skills/Data Analysis/baseline-extraction-for-clinical-trials"
+        },
+        {
+          "name": "basic-discovery-translational-opportunity-finder",
+          "path": "awesome-med-research-skills/Evidence Insight/basic-discovery-translational-opportunity-finder"
+        },
+        {
+          "name": "basic-research-design",
+          "path": "scientific-skills/Protocol Design/basic-research-design"
+        },
+        {
+          "name": "batch-effect-correction",
+          "path": "awesome-med-research-skills/Data Analysis/batch-effect-correction"
+        },
+        {
+          "name": "benchling-integration",
+          "path": "scientific-skills/Other/benchling-integration"
+        },
+        {
+          "name": "bianque",
+          "path": "awesome-med-research-skills/Other/bianque"
+        },
+        {
+          "name": "bib-formatter",
+          "path": "scientific-skills/Other/bib-formatter"
+        },
+        {
+          "name": "bibliography",
+          "path": "scientific-skills/Other/bibliography"
+        },
+        {
+          "name": "bidirectional-multi-phenotype-mr-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/bidirectional-multi-phenotype-mr-research-planner"
+        },
+        {
+          "name": "bio-causal-genomics-mediation-analysis",
+          "path": "scientific-skills/Data Analysis/bio-causal-genomics-mediation-analysis"
+        },
+        {
+          "name": "bio-causal-genomics-pleiotropy-detection",
+          "path": "scientific-skills/Data Analysis/bio-causal-genomics-pleiotropy-detection"
+        },
+        {
+          "name": "bio-ontology-mapper",
+          "path": "scientific-skills/Evidence Insight/bio-ontology-mapper"
+        },
+        {
+          "name": "biodbnet-api",
+          "path": "scientific-skills/Other/biodbnet-api"
+        },
+        {
+          "name": "biogrid-orcs",
+          "path": "scientific-skills/Evidence Insight/biogrid-orcs"
+        },
+        {
+          "name": "bioinfo-analysis-plan",
+          "path": "scientific-skills/Protocol Design/bioinfo-analysis-plan"
+        },
+        {
+          "name": "bioinformatics-translational-opportunity-finder",
+          "path": "awesome-med-research-skills/Evidence Insight/bioinformatics-translational-opportunity-finder"
+        },
+        {
+          "name": "biomarker-landscape-scanner",
+          "path": "awesome-med-research-skills/Evidence Insight/biomarker-landscape-scanner"
+        },
+        {
+          "name": "biomed-outline-generator",
+          "path": "scientific-skills/Academic Writing/biomed-outline-generator"
+        },
+        {
+          "name": "biomedical-search-strategy-builder",
+          "path": "awesome-med-research-skills/Evidence Insight/biomedical-search-strategy-builder"
+        },
+        {
+          "name": "biopython",
+          "path": "scientific-skills/Data Analysis/biopython"
+        },
+        {
+          "name": "biopython-advanced",
+          "path": "scientific-skills/Data Analysis/biopython-advanced"
+        },
+        {
+          "name": "biopython-alignment",
+          "path": "scientific-skills/Data Analysis/biopython-alignment"
+        },
+        {
+          "name": "biopython-entrez",
+          "path": "scientific-skills/Evidence Insight/biopython-entrez"
+        },
+        {
+          "name": "biopython-phylo",
+          "path": "scientific-skills/Data Analysis/biopython-phylo"
+        },
+        {
+          "name": "biopython-sequence-io",
+          "path": "scientific-skills/Data Analysis/biopython-sequence-io"
+        },
+        {
+          "name": "biopython-structure",
+          "path": "scientific-skills/Data Analysis/biopython-structure"
+        },
+        {
+          "name": "biorxiv-database",
+          "path": "scientific-skills/Evidence Insight/biorxiv-database"
+        },
+        {
+          "name": "bioservices",
+          "path": "scientific-skills/Data Analysis/bioservices"
+        },
+        {
+          "name": "biotech-pitch-deck-narrative",
+          "path": "scientific-skills/Academic Writing/biotech-pitch-deck-narrative"
+        },
+        {
+          "name": "blind-review-sanitizer",
+          "path": "scientific-skills/Academic Writing/blind-review-sanitizer"
+        },
+        {
+          "name": "blockbuster-therapy-predictor",
+          "path": "scientific-skills/Evidence Insight/blockbuster-therapy-predictor"
+        },
+        {
+          "name": "bmi-bsa-calculator",
+          "path": "scientific-skills/Other/bmi-bsa-calculator"
+        },
+        {
+          "name": "brainstorming",
+          "path": "scientific-skills/Other/brainstorming"
+        },
+        {
+          "name": "brenda-database",
+          "path": "scientific-skills/Evidence Insight/brenda-database"
+        },
+        {
+          "name": "buffer-calculator",
+          "path": "scientific-skills/Other/buffer-calculator"
+        },
+        {
+          "name": "bulk-omics-integrative-planner",
+          "path": "awesome-med-research-skills/Protocol Design/bulk-omics-integrative-planner"
+        },
+        {
+          "name": "case-control-study-planner",
+          "path": "awesome-med-research-skills/Protocol Design/case-control-study-planner"
+        },
+        {
+          "name": "Case-control-study-quality-assessment-nos",
+          "path": "scientific-skills/Data Analysis/Case-control-study-quality-assessment-nos"
+        },
+        {
+          "name": "cellosaurus-api",
+          "path": "scientific-skills/Evidence Insight/cellosaurus-api"
+        },
+        {
+          "name": "cellxgene-census",
+          "path": "scientific-skills/Evidence Insight/cellxgene-census"
+        },
+        {
+          "name": "cerna-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/cerna-analysis"
+        },
+        {
+          "name": "chart-style-unifier",
+          "path": "scientific-skills/Other/chart-style-unifier"
+        },
+        {
+          "name": "chea-api",
+          "path": "scientific-skills/Evidence Insight/chea-api"
+        },
+        {
+          "name": "chembl-database",
+          "path": "scientific-skills/Evidence Insight/chembl-database"
+        },
+        {
+          "name": "chemical-storage-sorter",
+          "path": "scientific-skills/Other/chemical-storage-sorter"
+        },
+        {
+          "name": "chemical-structure-converter",
+          "path": "scientific-skills/Other/chemical-structure-converter"
+        },
+        {
+          "name": "cibersort-immune-infiltration-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/cibersort-immune-infiltration-analysis"
+        },
+        {
+          "name": "circos-plot-generator",
+          "path": "scientific-skills/Data Analysis/circos-plot-generator"
+        },
+        {
+          "name": "citation-chasing-mapping",
+          "path": "scientific-skills/Evidence Insight/citation-chasing-mapping"
+        },
+        {
+          "name": "citation-formatter",
+          "path": "scientific-skills/Academic Writing/citation-formatter"
+        },
+        {
+          "name": "citation-management",
+          "path": "scientific-skills/Evidence Insight/citation-management"
+        },
+        {
+          "name": "citation-network",
+          "path": "scientific-skills/Evidence Insight/citation-network"
+        },
+        {
+          "name": "claim-strength-calibrator",
+          "path": "awesome-med-research-skills/Academic Writing/claim-strength-calibrator"
+        },
+        {
+          "name": "clinic-research-design",
+          "path": "scientific-skills/Protocol Design/clinic-research-design"
+        },
+        {
+          "name": "clinic-sample-size",
+          "path": "scientific-skills/Other/clinic-sample-size"
+        },
+        {
+          "name": "clinical-cohort-protocol-designer",
+          "path": "awesome-med-research-skills/Protocol Design/clinical-cohort-protocol-designer"
+        },
+        {
+          "name": "clinical-data-cleaner",
+          "path": "scientific-skills/Data Analysis/clinical-data-cleaner"
+        },
+        {
+          "name": "clinical-decision-support",
+          "path": "scientific-skills/Academic Writing/clinical-decision-support"
+        },
+        {
+          "name": "clinical-diagnostic-reasoning",
+          "path": "scientific-skills/Other/clinical-diagnostic-reasoning"
+        },
+        {
+          "name": "clinical-question-clarifier",
+          "path": "awesome-med-research-skills/Evidence Insight/clinical-question-clarifier"
+        },
+        {
+          "name": "clinical-reports",
+          "path": "scientific-skills/Other/clinical-reports"
+        },
+        {
+          "name": "clinical-study-info-extractor",
+          "path": "scientific-skills/Evidence Insight/clinical-study-info-extractor"
+        },
+        {
+          "name": "clinical-trial-finder",
+          "path": "scientific-skills/Evidence Insight/clinical-trial-finder"
+        },
+        {
+          "name": "clinical-trial-protocol-skill",
+          "path": "scientific-skills/Protocol Design/clinical-trial-protocol-skill"
+        },
+        {
+          "name": "clinicaltrials-database",
+          "path": "scientific-skills/Evidence Insight/clinicaltrials-database"
+        },
+        {
+          "name": "clinicaltrials-db",
+          "path": "scientific-skills/Evidence Insight/clinicaltrials-db"
+        },
+        {
+          "name": "clinicaltrials-gov-parser",
+          "path": "scientific-skills/Evidence Insight/clinicaltrials-gov-parser"
+        },
+        {
+          "name": "clinpgx-database",
+          "path": "scientific-skills/Evidence Insight/clinpgx-database"
+        },
+        {
+          "name": "clinvar-database",
+          "path": "scientific-skills/Evidence Insight/clinvar-database"
+        },
+        {
+          "name": "cnv-caller-plotter",
+          "path": "scientific-skills/Data Analysis/cnv-caller-plotter"
+        },
+        {
+          "name": "co2-tank-monitor",
+          "path": "scientific-skills/Other/co2-tank-monitor"
+        },
+        {
+          "name": "cobrapy",
+          "path": "scientific-skills/Data Analysis/cobrapy"
+        },
+        {
+          "name": "code-refactor-for-reproducibility",
+          "path": "scientific-skills/Data Analysis/code-refactor-for-reproducibility"
+        },
+        {
+          "name": "cohort-study-quality-assessment-nos",
+          "path": "scientific-skills/Data Analysis/cohort-study-quality-assessment-nos"
+        },
+        {
+          "name": "cold-chain-risk-calculator",
+          "path": "scientific-skills/Other/cold-chain-risk-calculator"
+        },
+        {
+          "name": "comorbidity-common-immune-biomarker-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/comorbidity-common-immune-biomarker-research-planner"
+        },
+        {
+          "name": "comparative-network-toxicology-shared-mechanism-reference-grounded",
+          "path": "awesome-med-research-skills/Protocol Design/comparative-network-toxicology-shared-mechanism-reference-grounded"
+        },
+        {
+          "name": "comparison-table-gen",
+          "path": "scientific-skills/Evidence Insight/comparison-table-gen"
+        },
+        {
+          "name": "competitor-trial-monitor",
+          "path": "scientific-skills/Evidence Insight/competitor-trial-monitor"
+        },
+        {
+          "name": "concept-explainer",
+          "path": "scientific-skills/Evidence Insight/concept-explainer"
+        },
+        {
+          "name": "conference-abstract-adaptor",
+          "path": "scientific-skills/Academic Writing/conference-abstract-adaptor"
+        },
+        {
+          "name": "conference-abstract-writer",
+          "path": "awesome-med-research-skills/Academic Writing/conference-abstract-writer"
+        },
+        {
+          "name": "conference-poster-pitch",
+          "path": "scientific-skills/Academic Writing/conference-poster-pitch"
+        },
+        {
+          "name": "conference-tweet-generator",
+          "path": "scientific-skills/Other/conference-tweet-generator"
+        },
+        {
+          "name": "conflict-of-interest-checker",
+          "path": "scientific-skills/Other/conflict-of-interest-checker"
+        },
+        {
+          "name": "confounder-and-bias-control-planner",
+          "path": "awesome-med-research-skills/Protocol Design/confounder-and-bias-control-planner"
+        },
+        {
+          "name": "consensus-clustering-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/consensus-clustering-analysis"
+        },
+        {
+          "name": "consistency-checker-across-manuscript",
+          "path": "awesome-med-research-skills/Academic Writing/consistency-checker-across-manuscript"
+        },
+        {
+          "name": "content-proofreading",
+          "path": "scientific-skills/Other/content-proofreading"
+        },
+        {
+          "name": "contradictory-findings-resolver",
+          "path": "awesome-med-research-skills/Evidence Insight/contradictory-findings-resolver"
+        },
+        {
+          "name": "conventional-non-oncology-hub-gene-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/conventional-non-oncology-hub-gene-research-planner"
+        },
+        {
+          "name": "conventional-oncology-hub-gene-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/conventional-oncology-hub-gene-research-planner"
+        },
+        {
+          "name": "cosmic-database",
+          "path": "scientific-skills/Evidence Insight/cosmic-database"
+        },
+        {
+          "name": "cover-letter-drafter",
+          "path": "awesome-med-research-skills/Academic Writing/cover-letter-drafter"
+        },
+        {
+          "name": "cover-letter-generator",
+          "path": "scientific-skills/Academic Writing/cover-letter-generator"
+        },
+        {
+          "name": "crispr-screen-analyzer",
+          "path": "scientific-skills/Data Analysis/crispr-screen-analyzer"
+        },
+        {
+          "name": "cross-disciplinary-bridge-finder",
+          "path": "scientific-skills/Evidence Insight/cross-disciplinary-bridge-finder"
+        },
+        {
+          "name": "cross-disease-shared-biomarker-network-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/cross-disease-shared-biomarker-network-research-planner"
+        },
+        {
+          "name": "crossref-database",
+          "path": "scientific-skills/Evidence Insight/crossref-database"
+        },
+        {
+          "name": "ctd-api",
+          "path": "scientific-skills/Evidence Insight/ctd-api"
+        },
+        {
+          "name": "data-stats-analysis",
+          "path": "scientific-skills/Data Analysis/data-stats-analysis"
+        },
+        {
+          "name": "data-transform",
+          "path": "scientific-skills/Data Analysis/data-transform"
+        },
+        {
+          "name": "datamol",
+          "path": "scientific-skills/Other/datamol"
+        },
+        {
+          "name": "date-calculator",
+          "path": "scientific-skills/Other/date-calculator"
+        },
+        {
+          "name": "decision-curve-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/decision-curve-analysis"
+        },
+        {
+          "name": "decision-tree-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/decision-tree-analysis"
+        },
+        {
+          "name": "deeptools",
+          "path": "scientific-skills/Data Analysis/deeptools"
+        },
+        {
+          "name": "deg-screening-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/deg-screening-analysis"
+        },
+        {
+          "name": "dei-statement-drafter",
+          "path": "scientific-skills/Academic Writing/dei-statement-drafter"
+        },
+        {
+          "name": "diagnostic-study-quality-assessment-quadas",
+          "path": "scientific-skills/Data Analysis/diagnostic-study-quality-assessment-quadas-2"
+        },
+        {
+          "name": "diagnostic-study-quality-assessment-quadas-2",
+          "path": "scientific-skills/Evidence Insight/diagnostic-study-quality-assessment-quadas-2"
+        },
+        {
+          "name": "dicom-anonymizer",
+          "path": "scientific-skills/Other/dicom-anonymizer"
+        },
+        {
+          "name": "diffdock-molecular-docking",
+          "path": "scientific-skills/Evidence Insight/diffdock-molecular-docking"
+        },
+        {
+          "name": "differential-expression-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/differential-expression-analysis"
+        },
+        {
+          "name": "digital-twin-discharge-drafter",
+          "path": "scientific-skills/Academic Writing/digital-twin-discharge-drafter"
+        },
+        {
+          "name": "discharge-summary-writer",
+          "path": "scientific-skills/Academic Writing/discharge-summary-writer"
+        },
+        {
+          "name": "discussion-composer",
+          "path": "awesome-med-research-skills/Academic Writing/discussion-composer"
+        },
+        {
+          "name": "discussion-section-architect",
+          "path": "scientific-skills/Academic Writing/discussion-section-architect"
+        },
+        {
+          "name": "disease-mechanism-evidence-map",
+          "path": "awesome-med-research-skills/Evidence Insight/disease-mechanism-evidence-map"
+        },
+        {
+          "name": "dnanexus-integration",
+          "path": "scientific-skills/Data Analysis/dnanexus-integration"
+        },
+        {
+          "name": "docx-feedback-tracker",
+          "path": "scientific-skills/Other/docx-feedback-tracker"
+        },
+        {
+          "name": "dpi-upscaler-checker",
+          "path": "scientific-skills/Other/dpi-upscaler-checker"
+        },
+        {
+          "name": "drug-interaction-checker",
+          "path": "scientific-skills/Evidence Insight/drug-interaction-checker"
+        },
+        {
+          "name": "drug-repurposing-study-planner",
+          "path": "awesome-med-research-skills/Protocol Design/drug-repurposing-study-planner"
+        },
+        {
+          "name": "drug-target-evidence-landscape",
+          "path": "awesome-med-research-skills/Evidence Insight/drug-target-evidence-landscape"
+        },
+        {
+          "name": "drugbank-database",
+          "path": "scientific-skills/Evidence Insight/drugbank-database"
+        },
+        {
+          "name": "dual-disease-shared-transcriptome-biomarker-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/dual-disease-shared-transcriptome-biomarker-research-planner"
+        },
+        {
+          "name": "dual-disease-transcriptomic-ml-planner",
+          "path": "scientific-skills/Protocol Design/dual-disease-transcriptomic-ml-planner"
+        },
+        {
+          "name": "ebm-calculator",
+          "path": "scientific-skills/Other/ebm-calculator"
+        },
+        {
+          "name": "ectd-xml-compiler",
+          "path": "scientific-skills/Academic Writing/ectd-xml-compiler"
+        },
+        {
+          "name": "ehr-semantic-compressor",
+          "path": "scientific-skills/Academic Writing/ehr-semantic-compressor"
+        },
+        {
+          "name": "elastic-net-feature-selection",
+          "path": "awesome-med-research-skills/Data Analysis/elastic-net-feature-selection"
+        },
+        {
+          "name": "emerging-topic-scout",
+          "path": "scientific-skills/Evidence Insight/emerging-topic-scout"
+        },
+        {
+          "name": "ena-database",
+          "path": "scientific-skills/Evidence Insight/ena-database"
+        },
+        {
+          "name": "encode-api",
+          "path": "scientific-skills/Evidence Insight/encode-api"
+        },
+        {
+          "name": "encori-api",
+          "path": "scientific-skills/Evidence Insight/encori-api"
+        },
+        {
+          "name": "endpoint-definition-designer",
+          "path": "awesome-med-research-skills/Protocol Design/endpoint-definition-designer"
+        },
+        {
+          "name": "ensembl-database",
+          "path": "scientific-skills/Evidence Insight/ensembl-database"
+        },
+        {
+          "name": "epidemiology",
+          "path": "scientific-skills/Data Analysis/epidemiology"
+        },
+        {
+          "name": "equipment-maintenance-log",
+          "path": "scientific-skills/Other/equipment-maintenance-log"
+        },
+        {
+          "name": "esm",
+          "path": "scientific-skills/Protocol Design/esm"
+        },
+        {
+          "name": "estimate-immune-score-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/estimate-immune-score-analysis"
+        },
+        {
+          "name": "etetoolkit",
+          "path": "scientific-skills/Data Analysis/etetoolkit"
+        },
+        {
+          "name": "evidence-level-ranker",
+          "path": "awesome-med-research-skills/Evidence Insight/evidence-level-ranker"
+        },
+        {
+          "name": "experiment-design",
+          "path": "scientific-skills/Protocol Design/experiment-design"
+        },
+        {
+          "name": "experiment-detail-comparator",
+          "path": "scientific-skills/Other/experiment-detail-comparator"
+        },
+        {
+          "name": "experimental-data-analysis",
+          "path": "scientific-skills/Data Analysis/experimental-data-analysis"
+        },
+        {
+          "name": "expert-interview-generator",
+          "path": "scientific-skills/Other/expert-interview-generator"
+        },
+        {
+          "name": "expert-interview-topics",
+          "path": "scientific-skills/Other/expert-interview-topics"
+        },
+        {
+          "name": "exploratory-data-analysis",
+          "path": "scientific-skills/Data Analysis/exploratory-data-analysis"
+        },
+        {
+          "name": "external-model-validation",
+          "path": "awesome-med-research-skills/Data Analysis/external-model-validation"
+        },
+        {
+          "name": "facs-gating-viz-style",
+          "path": "scientific-skills/Data Analysis/facs-gating-viz-style"
+        },
+        {
+          "name": "faers-multi-drug-soc-planner",
+          "path": "scientific-skills/Protocol Design/faers-multi-drug-soc-planner"
+        },
+        {
+          "name": "faers-pharmacovigilance-disproportionality-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/faers-pharmacovigilance-disproportionality-research-planner"
+        },
+        {
+          "name": "faq-generator",
+          "path": "scientific-skills/Academic Writing/faq-generator"
+        },
+        {
+          "name": "fastqc-report-interpreter",
+          "path": "scientific-skills/Data Analysis/fastqc-report-interpreter"
+        },
+        {
+          "name": "fda-database",
+          "path": "scientific-skills/Evidence Insight/fda-database"
+        },
+        {
+          "name": "fda-guideline-search",
+          "path": "scientific-skills/Evidence Insight/fda-guideline-search"
+        },
+        {
+          "name": "feasibility-aware-study-planner",
+          "path": "awesome-med-research-skills/Protocol Design/feasibility-aware-study-planner"
+        },
+        {
+          "name": "figure-first-paper-reader",
+          "path": "awesome-med-research-skills/Evidence Insight/figure-first-paper-reader"
+        },
+        {
+          "name": "figure-legend-gen",
+          "path": "scientific-skills/Academic Writing/figure-legend-gen"
+        },
+        {
+          "name": "figure-legend-writer",
+          "path": "awesome-med-research-skills/Academic Writing/figure-legend-writer"
+        },
+        {
+          "name": "figure-reference-checker",
+          "path": "scientific-skills/Academic Writing/figure-reference-checker"
+        },
+        {
+          "name": "file-management",
+          "path": "scientific-skills/Other/file-management"
+        },
+        {
+          "name": "file-search",
+          "path": "scientific-skills/Other/file-search"
+        },
+        {
+          "name": "file-security-toolkit",
+          "path": "scientific-skills/Other/file-security-toolkit"
+        },
+        {
+          "name": "find-paper-references",
+          "path": "scientific-skills/Academic Writing/find-paper-references"
+        },
+        {
+          "name": "flowio",
+          "path": "scientific-skills/Data Analysis/flowio"
+        },
+        {
+          "name": "forest-plot-styler",
+          "path": "scientific-skills/Data Analysis/forest-plot-styler"
+        },
+        {
+          "name": "format-references-endnote",
+          "path": "scientific-skills/Academic Writing/format-references-endnote"
+        },
+        {
+          "name": "format-references-zotero",
+          "path": "scientific-skills/Academic Writing/format-references-zotero"
+        },
+        {
+          "name": "fulltext-fetcher",
+          "path": "scientific-skills/Other/fulltext-fetcher"
+        },
+        {
+          "name": "funding-trend-forecaster",
+          "path": "scientific-skills/Evidence Insight/funding-trend-forecaster"
+        },
+        {
+          "name": "gene-database",
+          "path": "scientific-skills/Evidence Insight/gene-database"
+        },
+        {
+          "name": "gene-info",
+          "path": "scientific-skills/Evidence Insight/gene-info"
+        },
+        {
+          "name": "gene-protein-expression-matrix-normalization",
+          "path": "awesome-med-research-skills/Data Analysis/gene-protein-expression-matrix-normalization"
+        },
+        {
+          "name": "gene-structure-mapper",
+          "path": "scientific-skills/Data Analysis/gene-structure-mapper"
+        },
+        {
+          "name": "generic-phenotype-scoring-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/generic-phenotype-scoring-research-planner"
+        },
+        {
+          "name": "geniml",
+          "path": "scientific-skills/Data Analysis/geniml"
+        },
+        {
+          "name": "geo-search-api",
+          "path": "scientific-skills/Evidence Insight/geo-search-api"
+        },
+        {
+          "name": "geopandas",
+          "path": "scientific-skills/Data Analysis/geopandas"
+        },
+        {
+          "name": "gget",
+          "path": "scientific-skills/Evidence Insight/gget"
+        },
+        {
+          "name": "gokegg",
+          "path": "awesome-med-research-skills/Data Analysis/gokegg"
+        },
+        {
+          "name": "grant-budget-justification",
+          "path": "scientific-skills/Academic Writing/grant-budget-justification"
+        },
+        {
+          "name": "grant-funding-scout",
+          "path": "scientific-skills/Evidence Insight/grant-funding-scout"
+        },
+        {
+          "name": "grant-gantt-chart-gen",
+          "path": "scientific-skills/Evidence Insight/grant-gantt-chart-gen"
+        },
+        {
+          "name": "grant-mock-reviewer",
+          "path": "scientific-skills/Academic Writing/grant-mock-reviewer"
+        },
+        {
+          "name": "grant-proposal-assistant",
+          "path": "scientific-skills/Academic Writing/grant-proposal-assistant"
+        },
+        {
+          "name": "grant-specific-aims-writer",
+          "path": "awesome-med-research-skills/Academic Writing/grant-specific-aims-writer"
+        },
+        {
+          "name": "graph-interpretation",
+          "path": "scientific-skills/Academic Writing/graph-interpretation"
+        },
+        {
+          "name": "graphical-abstract-generator",
+          "path": "awesome-med-research-skills/Academic Writing/graphical-abstract-generator"
+        },
+        {
+          "name": "graphical-abstract-wizard",
+          "path": "scientific-skills/Data Analysis/graphical-abstract-wizard"
+        },
+        {
+          "name": "gsea",
+          "path": "awesome-med-research-skills/Data Analysis/gsea"
+        },
+        {
+          "name": "gsva-analysis-and-visualization",
+          "path": "awesome-med-research-skills/Data Analysis/gsva-analysis-and-visualization"
+        },
+        {
+          "name": "gtars",
+          "path": "scientific-skills/Data Analysis/gtars"
+        },
+        {
+          "name": "gwas-database",
+          "path": "scientific-skills/Evidence Insight/gwas-database"
+        },
+        {
+          "name": "heatmap-beautifier",
+          "path": "scientific-skills/Data Analysis/heatmap-beautifier"
+        },
+        {
+          "name": "hgnc-api",
+          "path": "scientific-skills/Evidence Insight/hgnc-api"
+        },
+        {
+          "name": "hierarchical-clustering-plot",
+          "path": "awesome-med-research-skills/Data Analysis/hierarchical-clustering-plot"
+        },
+        {
+          "name": "high-value-paper-screener",
+          "path": "awesome-med-research-skills/Evidence Insight/high-value-paper-screener"
+        },
+        {
+          "name": "hipaa-compliance-auditor",
+          "path": "scientific-skills/Academic Writing/hipaa-compliance-auditor"
+        },
+        {
+          "name": "hippocrates",
+          "path": "scientific-skills/Other/hippocrates"
+        },
+        {
+          "name": "histolab",
+          "path": "scientific-skills/Data Analysis/histolab"
+        },
+        {
+          "name": "hmdb-database",
+          "path": "scientific-skills/Evidence Insight/hmdb-database"
+        },
+        {
+          "name": "html-to-pdf",
+          "path": "scientific-skills/Other/html-to-pdf"
+        },
+        {
+          "name": "hypogenic",
+          "path": "scientific-skills/Protocol Design/hypogenic"
+        },
+        {
+          "name": "hypothesis-generation",
+          "path": "scientific-skills/Protocol Design/hypothesis-generation"
+        },
+        {
+          "name": "iacuc-protocol-drafter",
+          "path": "scientific-skills/Academic Writing/iacuc-protocol-drafter"
+        },
+        {
+          "name": "ib-summarizer",
+          "path": "scientific-skills/Evidence Insight/ib-summarizer"
+        },
+        {
+          "name": "icd10-cpt-coding-assistant",
+          "path": "scientific-skills/Other/icd10-cpt-coding-assistant"
+        },
+        {
+          "name": "id-photo-tool",
+          "path": "scientific-skills/Other/id-photo-tool"
+        },
+        {
+          "name": "image-ocr",
+          "path": "scientific-skills/Other/image-ocr"
+        },
+        {
+          "name": "image-processing",
+          "path": "scientific-skills/Other/image-processing"
+        },
+        {
+          "name": "imagegenskill",
+          "path": "scientific-skills/Other/imagegenskill"
+        },
+        {
+          "name": "immune-pathway-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/immune-pathway-analysis"
+        },
+        {
+          "name": "inclusion-criteria-gen",
+          "path": "scientific-skills/Protocol Design/inclusion-criteria-gen"
+        },
+        {
+          "name": "inclusion-exclusion-criteria-builder",
+          "path": "awesome-med-research-skills/Protocol Design/inclusion-exclusion-criteria-builder"
+        },
+        {
+          "name": "INPLASY-registration-helper",
+          "path": "scientific-skills/Protocol Design/INPLASY-registration-helper"
+        },
+        {
+          "name": "introduction-logic-builder",
+          "path": "awesome-med-research-skills/Academic Writing/introduction-logic-builder"
+        },
+        {
+          "name": "introduction-section-writer",
+          "path": "awesome-med-research-skills/Academic Writing/introduction-section-writer"
+        },
+        {
+          "name": "irb-application-assistant",
+          "path": "scientific-skills/Academic Writing/irb-application-assistant"
+        },
+        {
+          "name": "iso-13485-certification",
+          "path": "scientific-skills/Other/iso-13485-certification"
+        },
+        {
+          "name": "jaspar-api",
+          "path": "scientific-skills/Evidence Insight/jaspar-api"
+        },
+        {
+          "name": "journal-club-presenter",
+          "path": "scientific-skills/Academic Writing/journal-club-presenter"
+        },
+        {
+          "name": "journal-cover-prompter",
+          "path": "scientific-skills/Academic Writing/journal-cover-prompter"
+        },
+        {
+          "name": "journal-impact-factor-trend",
+          "path": "scientific-skills/Evidence Insight/journal-impact-factor-trend"
+        },
+        {
+          "name": "journal-latest-issue",
+          "path": "scientific-skills/Evidence Insight/journal-latest-issue"
+        },
+        {
+          "name": "journal-matchmaker",
+          "path": "scientific-skills/Evidence Insight/journal-matchmaker"
+        },
+        {
+          "name": "journal-recommender",
+          "path": "scientific-skills/Other/journal-recommender"
+        },
+        {
+          "name": "journal-skills",
+          "path": "scientific-skills/Evidence Insight/journal-skills"
+        },
+        {
+          "name": "kegg-api",
+          "path": "scientific-skills/Evidence Insight/kegg-api"
+        },
+        {
+          "name": "kegg-database",
+          "path": "scientific-skills/Evidence Insight/kegg-database"
+        },
+        {
+          "name": "key-takeaways",
+          "path": "scientific-skills/Evidence Insight/key-takeaways"
+        },
+        {
+          "name": "keyword-velocity-tracker",
+          "path": "scientific-skills/Evidence Insight/keyword-velocity-tracker"
+        },
+        {
+          "name": "km-survival-curve",
+          "path": "awesome-med-research-skills/Data Analysis/km-survival-curve"
+        },
+        {
+          "name": "knn-imputation",
+          "path": "awesome-med-research-skills/Data Analysis/knn-imputation"
+        },
+        {
+          "name": "knowledge-base-search",
+          "path": "scientific-skills/Other/knowledge-base-search"
+        },
+        {
+          "name": "kv-design",
+          "path": "scientific-skills/Other/kv-design"
+        },
+        {
+          "name": "lab-budget-forecaster",
+          "path": "scientific-skills/Data Analysis/lab-budget-forecaster"
+        },
+        {
+          "name": "lab-inventory-predictor",
+          "path": "scientific-skills/Other/lab-inventory-predictor"
+        },
+        {
+          "name": "Lab-Prep-Calculations",
+          "path": "scientific-skills/Other/Lab-Prep-Calculations"
+        },
+        {
+          "name": "lab-result-interpretation",
+          "path": "scientific-skills/Other/lab-result-interpretation"
+        },
+        {
+          "name": "labarchive-integration",
+          "path": "scientific-skills/Academic Writing/labarchive-integration"
+        },
+        {
+          "name": "lamindb",
+          "path": "scientific-skills/Data Analysis/lamindb"
+        },
+        {
+          "name": "lasso-logistics-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/lasso-logistics-analysis"
+        },
+        {
+          "name": "latex-manuscript-format-converter",
+          "path": "awesome-med-research-skills/Academic Writing/latex-manuscript-format-converter"
+        },
+        {
+          "name": "latex-posters",
+          "path": "scientific-skills/Academic Writing/latex-posters"
+        },
+        {
+          "name": "lay-press-release-writer",
+          "path": "scientific-skills/Academic Writing/lay-press-release-writer"
+        },
+        {
+          "name": "lay-summary-for-cross-disciplinary-teams",
+          "path": "awesome-med-research-skills/Academic Writing/lay-summary-for-cross-disciplinary-teams"
+        },
+        {
+          "name": "lay-summary-gen",
+          "path": "scientific-skills/Academic Writing/lay-summary-gen"
+        },
+        {
+          "name": "learning-tutoring",
+          "path": "scientific-skills/Other/learning-tutoring"
+        },
+        {
+          "name": "LightGBM-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/LightGBM-analysis"
+        },
+        {
+          "name": "limitation-and-risk-writer",
+          "path": "awesome-med-research-skills/Academic Writing/limitation-and-risk-writer"
+        },
+        {
+          "name": "linkedin-optimizer",
+          "path": "scientific-skills/Academic Writing/linkedin-optimizer"
+        },
+        {
+          "name": "lipinski-rule-filter",
+          "path": "scientific-skills/Data Analysis/lipinski-rule-filter"
+        },
+        {
+          "name": "litbase",
+          "path": "awesome-med-research-skills/Evidence Insight/litbase"
+        },
+        {
+          "name": "literature-close-read",
+          "path": "scientific-skills/Evidence Insight/literature-close-read"
+        },
+        {
+          "name": "literature-experiment-extract",
+          "path": "scientific-skills/Evidence Insight/literature-experiment-extract"
+        },
+        {
+          "name": "literature-extensive-read",
+          "path": "scientific-skills/Evidence Insight/literature-extensive-read"
+        },
+        {
+          "name": "literature-filtering",
+          "path": "scientific-skills/Evidence Insight/literature-filtering"
+        },
+        {
+          "name": "literature-management",
+          "path": "scientific-skills/Other/literature-management"
+        },
+        {
+          "name": "literature-review",
+          "path": "scientific-skills/Academic Writing/literature-review"
+        },
+        {
+          "name": "literature-statistics",
+          "path": "scientific-skills/Other/literature-statistics"
+        },
+        {
+          "name": "literatureimages-interpretation",
+          "path": "scientific-skills/Other/literatureimages-interpretation"
+        },
+        {
+          "name": "lncrna-regulatory-network-construction-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/lncrna-regulatory-network-construction-analysis"
+        },
+        {
+          "name": "market-access-value",
+          "path": "scientific-skills/Academic Writing/market-access-value"
+        },
+        {
+          "name": "market-research-report-generator",
+          "path": "scientific-skills/Other/market-research-report-generator"
+        },
+        {
+          "name": "markitdown",
+          "path": "scientific-skills/Other/markitdown"
+        },
+        {
+          "name": "matchms",
+          "path": "scientific-skills/Data Analysis/matchms"
+        },
+        {
+          "name": "matplotlib",
+          "path": "scientific-skills/Data Analysis/matplotlib"
+        },
+        {
+          "name": "mechanism-flowchart",
+          "path": "scientific-skills/Data Analysis/mechanism-flowchart"
+        },
+        {
+          "name": "mechanism-to-validation-planner",
+          "path": "awesome-med-research-skills/Protocol Design/mechanism-to-validation-planner"
+        },
+        {
+          "name": "medchem",
+          "path": "scientific-skills/Evidence Insight/medchem"
+        },
+        {
+          "name": "medical-case-interpreter",
+          "path": "scientific-skills/Other/medical-case-interpreter"
+        },
+        {
+          "name": "medical-case-report-generator",
+          "path": "scientific-skills/Other/medical-case-report-generator"
+        },
+        {
+          "name": "medical-cv-resume-builder",
+          "path": "scientific-skills/Academic Writing/medical-cv-resume-builder"
+        },
+        {
+          "name": "medical-device-mdr-auditor",
+          "path": "scientific-skills/Academic Writing/medical-device-mdr-auditor"
+        },
+        {
+          "name": "medical-email-polisher",
+          "path": "scientific-skills/Academic Writing/medical-email-polisher"
+        },
+        {
+          "name": "medical-english-precision-editor",
+          "path": "awesome-med-research-skills/Academic Writing/medical-english-precision-editor"
+        },
+        {
+          "name": "medical-imaging-review",
+          "path": "scientific-skills/Academic Writing/medical-imaging-review"
+        },
+        {
+          "name": "medical-research-algorithm-matcher",
+          "path": "awesome-med-research-skills/Protocol Design/medical-research-algorithm-matcher"
+        },
+        {
+          "name": "medical-research-gap-finder",
+          "path": "awesome-med-research-skills/Evidence Insight/medical-research-gap-finder"
+        },
+        {
+          "name": "medical-research-gap-to-study-planner",
+          "path": "awesome-med-research-skills/Protocol Design/medical-research-gap-to-study-planner"
+        },
+        {
+          "name": "medical-research-literature-reader-pro",
+          "path": "awesome-med-research-skills/Evidence Insight/medical-research-literature-reader-pro"
+        },
+        {
+          "name": "medical-review-writer-architect",
+          "path": "scientific-skills/Academic Writing/medical-review-writer-architect"
+        },
+        {
+          "name": "medical-scribe-dictation",
+          "path": "scientific-skills/Academic Writing/medical-scribe-dictation"
+        },
+        {
+          "name": "medical-topic-saturation-and-whitespace-checker",
+          "path": "awesome-med-research-skills/Evidence Insight/medical-topic-saturation-and-whitespace-checker"
+        },
+        {
+          "name": "medical-translation",
+          "path": "scientific-skills/Academic Writing/medical-translation"
+        },
+        {
+          "name": "medical-unit-converter",
+          "path": "scientific-skills/Other/medical-unit-converter"
+        },
+        {
+          "name": "medical-vector-search",
+          "path": "scientific-skills/Evidence Insight/medical-vector-search"
+        },
+        {
+          "name": "medication-adherence-message-gen",
+          "path": "scientific-skills/Academic Writing/medication-adherence-message-gen"
+        },
+        {
+          "name": "medication-reconciliation",
+          "path": "scientific-skills/Other/medication-reconciliation"
+        },
+        {
+          "name": "meeting-assistant",
+          "path": "scientific-skills/Other/meeting-assistant"
+        },
+        {
+          "name": "meeting-minutes",
+          "path": "scientific-skills/Academic Writing/meeting-minutes"
+        },
+        {
+          "name": "meeting-minutes-generator",
+          "path": "scientific-skills/Other/meeting-minutes-generator"
+        },
+        {
+          "name": "mendel",
+          "path": "awesome-med-research-skills/Other/mendel"
+        },
+        {
+          "name": "mendelian-randomisation",
+          "path": "scientific-skills/Data Analysis/mendelian-randomisation"
+        },
+        {
+          "name": "mendelian-randomization-protocol-designer",
+          "path": "awesome-med-research-skills/Protocol Design/mendelian-randomization-protocol-designer"
+        },
+        {
+          "name": "meta-abstract-screener",
+          "path": "scientific-skills/Data Analysis/meta-abstract-screener"
+        },
+        {
+          "name": "meta-analysis",
+          "path": "scientific-skills/Data Analysis/meta-analysis"
+        },
+        {
+          "name": "meta-analysis-methods-generator",
+          "path": "scientific-skills/Academic Writing/meta-analysis-methods-generator"
+        },
+        {
+          "name": "meta-baseline-generator",
+          "path": "scientific-skills/Academic Writing/meta-baseline-generator"
+        },
+        {
+          "name": "meta-baujat-plot",
+          "path": "scientific-skills/Data Analysis/meta-baujat-plot"
+        },
+        {
+          "name": "meta-criteria-generator",
+          "path": "scientific-skills/Data Analysis/meta-criteria-generator"
+        },
+        {
+          "name": "meta-feasibility-analyzer",
+          "path": "scientific-skills/Data Analysis/meta-feasibility-analyzer"
+        },
+        {
+          "name": "meta-forest-binary-plot",
+          "path": "scientific-skills/Data Analysis/meta-forest-binary-plot"
+        },
+        {
+          "name": "meta-forest-continuous-plot",
+          "path": "scientific-skills/Data Analysis/meta-forest-continuous-plot"
+        },
+        {
+          "name": "meta-forest-model-plot",
+          "path": "scientific-skills/Data Analysis/meta-forest-model-plot"
+        },
+        {
+          "name": "meta-funnel-plot",
+          "path": "scientific-skills/Data Analysis/meta-funnel-plot"
+        },
+        {
+          "name": "meta-manuscript-generator",
+          "path": "scientific-skills/Academic Writing/meta-manuscript-generator"
+        },
+        {
+          "name": "meta-picos-generator",
+          "path": "scientific-skills/Data Analysis/meta-picos-generator"
+        },
+        {
+          "name": "meta-protocol-writer",
+          "path": "scientific-skills/Protocol Design/meta-protocol-writer"
+        },
+        {
+          "name": "meta-radial-plot",
+          "path": "scientific-skills/Data Analysis/meta-radial-plot"
+        },
+        {
+          "name": "meta-results-forest-plot-analyzer",
+          "path": "scientific-skills/Academic Writing/meta-results-forest-plot-analyzer"
+        },
+        {
+          "name": "meta-results-funnel-plot-generator",
+          "path": "scientific-skills/Academic Writing/meta-results-funnel-plot-generator"
+        },
+        {
+          "name": "meta-results-risk-of-bias",
+          "path": "scientific-skills/Academic Writing/meta-results-risk-of-bias"
+        },
+        {
+          "name": "meta-results-sensitivity-analysis",
+          "path": "scientific-skills/Academic Writing/meta-results-sensitivity-analysis"
+        },
+        {
+          "name": "meta-rob2-plot",
+          "path": "scientific-skills/Data Analysis/meta-rob2-plot"
+        },
+        {
+          "name": "meta-screening-fulltext",
+          "path": "scientific-skills/Data Analysis/meta-screening-fulltext"
+        },
+        {
+          "name": "meta-search-builder",
+          "path": "scientific-skills/Other/meta-search-builder"
+        },
+        {
+          "name": "meta-sensitivity-plot",
+          "path": "scientific-skills/Data Analysis/meta-sensitivity-plot"
+        },
+        {
+          "name": "meta-title-generator",
+          "path": "scientific-skills/Data Analysis/meta-title-generator"
+        },
+        {
+          "name": "metabolomics-workbench-database",
+          "path": "scientific-skills/Data Analysis/metabolomics-workbench-database"
+        },
+        {
+          "name": "metagenomic-krona-chart",
+          "path": "scientific-skills/Data Analysis/metagenomic-krona-chart"
+        },
+        {
+          "name": "method-gap-detector",
+          "path": "awesome-med-research-skills/Evidence Insight/method-gap-detector"
+        },
+        {
+          "name": "method-writing",
+          "path": "scientific-skills/Academic Writing/method-writing"
+        },
+        {
+          "name": "methodology-extractor",
+          "path": "scientific-skills/Evidence Insight/methodology-extractor"
+        },
+        {
+          "name": "methods-reverse-engineer",
+          "path": "awesome-med-research-skills/Evidence Insight/methods-reverse-engineer"
+        },
+        {
+          "name": "methods-section-writer",
+          "path": "awesome-med-research-skills/Academic Writing/methods-section-writer"
+        },
+        {
+          "name": "microbiome-diversity-reporter",
+          "path": "scientific-skills/Academic Writing/microbiome-diversity-reporter"
+        },
+        {
+          "name": "microscopy-scale-bar-adder",
+          "path": "scientific-skills/Other/microscopy-scale-bar-adder"
+        },
+        {
+          "name": "mindmap",
+          "path": "scientific-skills/Other/mindmap"
+        },
+        {
+          "name": "mindmap-helper",
+          "path": "scientific-skills/Other/mindmap-helper"
+        },
+        {
+          "name": "mindmap-html-generator",
+          "path": "scientific-skills/Other/mindmap-html-generator"
+        },
+        {
+          "name": "moa-explainer",
+          "path": "scientific-skills/Academic Writing/moa-explainer"
+        },
+        {
+          "name": "model-calibration-curve",
+          "path": "awesome-med-research-skills/Data Analysis/model-calibration-curve"
+        },
+        {
+          "name": "molecular-review-workflow",
+          "path": "scientific-skills/Academic Writing/molecular-review-workflow"
+        },
+        {
+          "name": "motif-logo-generator",
+          "path": "scientific-skills/Data Analysis/motif-logo-generator"
+        },
+        {
+          "name": "mr-scrna-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/mr-scrna-research-planner"
+        },
+        {
+          "name": "multi-database-literature-collector",
+          "path": "awesome-med-research-skills/Evidence Insight/multi-database-literature-collector"
+        },
+        {
+          "name": "multi-omics-clinical-integration-planner",
+          "path": "awesome-med-research-skills/Protocol Design/multi-omics-clinical-integration-planner"
+        },
+        {
+          "name": "multi-panel-figure-assembler",
+          "path": "scientific-skills/Other/multi-panel-figure-assembler"
+        },
+        {
+          "name": "multi-source-news-writer",
+          "path": "scientific-skills/Other/multi-source-news-writer"
+        },
+        {
+          "name": "neoantigen-predictor",
+          "path": "scientific-skills/Data Analysis/neoantigen-predictor"
+        },
+        {
+          "name": "network-tox-docking-research-planner",
+          "path": "scientific-skills/Protocol Design/network-tox-docking-research-planner"
+        },
+        {
+          "name": "networking-email-drafter",
+          "path": "scientific-skills/Academic Writing/networking-email-drafter"
+        },
+        {
+          "name": "neurokit2",
+          "path": "scientific-skills/Data Analysis/neurokit2"
+        },
+        {
+          "name": "neuropixels-analysis",
+          "path": "scientific-skills/Data Analysis/neuropixels-analysis"
+        },
+        {
+          "name": "nhanes-clinical-retrospective-biomarker-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/nhanes-clinical-retrospective-biomarker-research-planner"
+        },
+        {
+          "name": "nih-biosketch-builder",
+          "path": "scientific-skills/Academic Writing/nih-biosketch-builder"
+        },
+        {
+          "name": "nomogram-construction",
+          "path": "awesome-med-research-skills/Data Analysis/nomogram-construction"
+        },
+        {
+          "name": "non-tumor-mechanism-guided-diagnostic-ml-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/non-tumor-mechanism-guided-diagnostic-ml-research-planner"
+        },
+        {
+          "name": "non-tumor-ml-research-planner",
+          "path": "scientific-skills/Protocol Design/non-tumor-ml-research-planner"
+        },
+        {
+          "name": "note-summarizer",
+          "path": "scientific-skills/Other/note-summarizer"
+        },
+        {
+          "name": "novelty-vs-feasibility-assessor",
+          "path": "awesome-med-research-skills/Evidence Insight/novelty-vs-feasibility-assessor"
+        },
+        {
+          "name": "nsfc-grant-writer",
+          "path": "scientific-skills/Academic Writing/nsfc-grant-writer"
+        },
+        {
+          "name": "open-access-scout",
+          "path": "scientific-skills/Evidence Insight/open-access-scout"
+        },
+        {
+          "name": "open-source-license-check",
+          "path": "scientific-skills/Evidence Insight/open-source-license-check"
+        },
+        {
+          "name": "open-targets-db",
+          "path": "scientific-skills/Evidence Insight/open-targets-db"
+        },
+        {
+          "name": "openalex-db",
+          "path": "scientific-skills/Evidence Insight/openalex-db"
+        },
+        {
+          "name": "outcome-extraction-for-clinical-trials",
+          "path": "scientific-skills/Data Analysis/outcome-extraction-for-clinical-trials"
+        },
+        {
+          "name": "outlier-detection-handler",
+          "path": "scientific-skills/Data Analysis/outlier-detection-handler"
+        },
+        {
+          "name": "paper-2-web",
+          "path": "scientific-skills/Academic Writing/paper-2-web"
+        },
+        {
+          "name": "paper-lookup",
+          "path": "scientific-skills/Evidence Insight/paper-lookup"
+        },
+        {
+          "name": "paper-sprint-review",
+          "path": "awesome-med-research-skills/Academic Writing/paper-sprint-review"
+        },
+        {
+          "name": "paper-to-claim-verifier",
+          "path": "awesome-med-research-skills/Evidence Insight/paper-to-claim-verifier"
+        },
+        {
+          "name": "paper-tweet-generator",
+          "path": "scientific-skills/Other/paper-tweet-generator"
+        },
+        {
+          "name": "patent-assistant",
+          "path": "scientific-skills/Academic Writing/patent-assistant"
+        },
+        {
+          "name": "patent-claim-mapper",
+          "path": "scientific-skills/Evidence Insight/patent-claim-mapper"
+        },
+        {
+          "name": "patent-landscape",
+          "path": "scientific-skills/Evidence Insight/patent-landscape"
+        },
+        {
+          "name": "pathml",
+          "path": "scientific-skills/Data Analysis/pathml"
+        },
+        {
+          "name": "pathology-roi-selector",
+          "path": "scientific-skills/Data Analysis/pathology-roi-selector"
+        },
+        {
+          "name": "pathway-introduction-expert",
+          "path": "scientific-skills/Evidence Insight/pathway-introduction-expert"
+        },
+        {
+          "name": "patient-consent-simplifier",
+          "path": "scientific-skills/Other/patient-consent-simplifier"
+        },
+        {
+          "name": "patient-recruitment-ad-gen",
+          "path": "scientific-skills/Academic Writing/patient-recruitment-ad-gen"
+        },
+        {
+          "name": "pca-dimensionality-reduction",
+          "path": "awesome-med-research-skills/Data Analysis/pca-dimensionality-reduction"
+        },
+        {
+          "name": "pcd-immune-oncology-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/pcd-immune-oncology-research-planner"
+        },
+        {
+          "name": "pdb-database",
+          "path": "scientific-skills/Evidence Insight/pdb-database"
+        },
+        {
+          "name": "pdf-extract",
+          "path": "scientific-skills/Other/pdf-extract"
+        },
+        {
+          "name": "pdf-extract-experimental-materials",
+          "path": "scientific-skills/Evidence Insight/pdf-extract-experimental-materials"
+        },
+        {
+          "name": "pdf-ppt",
+          "path": "scientific-skills/Other/pdf-ppt"
+        },
+        {
+          "name": "pdf-processor",
+          "path": "scientific-skills/Other/pdf-processor"
+        },
+        {
+          "name": "pdf-to-ppt-pack",
+          "path": "scientific-skills/Other/pdf-to-ppt-pack"
+        },
+        {
+          "name": "peer-review",
+          "path": "scientific-skills/Academic Writing/peer-review"
+        },
+        {
+          "name": "peer-review-response-drafter",
+          "path": "scientific-skills/Academic Writing/peer-review-response-drafter"
+        },
+        {
+          "name": "personal-statement",
+          "path": "scientific-skills/Academic Writing/personal-statement"
+        },
+        {
+          "name": "phenotype-introduction",
+          "path": "scientific-skills/Evidence Insight/phenotype-introduction"
+        },
+        {
+          "name": "phi-prompt-guard",
+          "path": "scientific-skills/Other/phi-prompt-guard"
+        },
+        {
+          "name": "phylogenetic-tree-styler",
+          "path": "scientific-skills/Data Analysis/phylogenetic-tree-styler"
+        },
+        {
+          "name": "plan-generator",
+          "path": "scientific-skills/Other/plan-generator"
+        },
+        {
+          "name": "plotly",
+          "path": "scientific-skills/Other/plotly"
+        },
+        {
+          "name": "pmc-official-download",
+          "path": "scientific-skills/Evidence Insight/pmc-official-download"
+        },
+        {
+          "name": "population-gap-detector",
+          "path": "awesome-med-research-skills/Evidence Insight/population-gap-detector"
+        },
+        {
+          "name": "postdoc-fellowship-matcher",
+          "path": "scientific-skills/Other/postdoc-fellowship-matcher"
+        },
+        {
+          "name": "poster-designer",
+          "path": "scientific-skills/Other/poster-designer"
+        },
+        {
+          "name": "poster-layout-planner",
+          "path": "scientific-skills/Academic Writing/poster-layout-planner"
+        },
+        {
+          "name": "poster-storyline-builder",
+          "path": "awesome-med-research-skills/Academic Writing/poster-storyline-builder"
+        },
+        {
+          "name": "ppi-network-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/ppi-network-analysis"
+        },
+        {
+          "name": "ppt",
+          "path": "scientific-skills/Other/ppt"
+        },
+        {
+          "name": "ppt-master",
+          "path": "scientific-skills/Other/ppt-master"
+        },
+        {
+          "name": "pptx-posters",
+          "path": "scientific-skills/Other/pptx-posters"
+        },
+        {
+          "name": "PPTX-Skill",
+          "path": "scientific-skills/Other/PPTX-Skill"
+        },
+        {
+          "name": "preclinical-pkpd-analyst",
+          "path": "scientific-skills/Data Analysis/preclinical-pkpd-analyst"
+        },
+        {
+          "name": "preprint-surveillance-finder",
+          "path": "awesome-med-research-skills/Evidence Insight/preprint-surveillance-finder"
+        },
+        {
+          "name": "presentation-hook",
+          "path": "scientific-skills/Academic Writing/presentation-hook"
+        },
+        {
+          "name": "primary-plan-recommender",
+          "path": "awesome-med-research-skills/Protocol Design/primary-plan-recommender"
+        },
+        {
+          "name": "prior-auth-letter-drafter",
+          "path": "scientific-skills/Academic Writing/prior-auth-letter-drafter"
+        },
+        {
+          "name": "probast-quality-assessment-for-prediction-model-studies",
+          "path": "scientific-skills/Data Analysis/probast-quality-assessment-for-prediction-model-studies"
+        },
+        {
+          "name": "process-related-diagnostic-biomarker-nomogram-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/process-related-diagnostic-biomarker-nomogram-research-planner"
+        },
+        {
+          "name": "prognostic-biomarker-protocol-designer",
+          "path": "awesome-med-research-skills/Protocol Design/prognostic-biomarker-protocol-designer"
+        },
+        {
+          "name": "prospero-registration-helper",
+          "path": "scientific-skills/Protocol Design/prospero-registration-helper"
+        },
+        {
+          "name": "protocol-deviation-classifier",
+          "path": "scientific-skills/Data Analysis/protocol-deviation-classifier"
+        },
+        {
+          "name": "protocol-standardization",
+          "path": "scientific-skills/Protocol Design/protocol-standardization"
+        },
+        {
+          "name": "pseudotime-trajectory-viz",
+          "path": "scientific-skills/Data Analysis/pseudotime-trajectory-viz"
+        },
+        {
+          "name": "pubchem-database-skill",
+          "path": "scientific-skills/Evidence Insight/pubchem-database-skill"
+        },
+        {
+          "name": "pubmed-database",
+          "path": "scientific-skills/Evidence Insight/pubmed-database"
+        },
+        {
+          "name": "pubmed-search-specialist",
+          "path": "scientific-skills/Evidence Insight/pubmed-search-specialist"
+        },
+        {
+          "name": "pubmed-topic-recommend",
+          "path": "scientific-skills/Evidence Insight/pubmed-topic-recommend"
+        },
+        {
+          "name": "pydeseq2",
+          "path": "scientific-skills/Data Analysis/pydeseq2"
+        },
+        {
+          "name": "pydicom",
+          "path": "scientific-skills/Data Analysis/pydicom"
+        },
+        {
+          "name": "pyhealth",
+          "path": "scientific-skills/Data Analysis/pyhealth"
+        },
+        {
+          "name": "pyopenms-skill",
+          "path": "scientific-skills/Data Analysis/pyopenms-skill"
+        },
+        {
+          "name": "pysam",
+          "path": "scientific-skills/Data Analysis/pysam"
+        },
+        {
+          "name": "pytdc",
+          "path": "scientific-skills/Evidence Insight/pytdc"
+        },
+        {
+          "name": "q-and-a-prep-partner",
+          "path": "scientific-skills/Academic Writing/q-and-a-prep-partner"
+        },
+        {
+          "name": "qtl-colocalization-study-planner",
+          "path": "awesome-med-research-skills/Protocol Design/qtl-colocalization-study-planner"
+        },
+        {
+          "name": "quadas-c-assessment-for-diagnostic-accuracy-studies",
+          "path": "scientific-skills/Data Analysis/quadas-c-assessment-for-diagnostic-accuracy-studies"
+        },
+        {
+          "name": "quality-assessment",
+          "path": "scientific-skills/Data Analysis/quality-assessment"
+        },
+        {
+          "name": "quapas-quality-assessment-for-prognosis-studies",
+          "path": "scientific-skills/Data Analysis/quapas-quality-assessment-for-prognosis-studies"
+        },
+        {
+          "name": "radiology-image-quiz",
+          "path": "scientific-skills/Academic Writing/radiology-image-quiz"
+        },
+        {
+          "name": "randomization-gen",
+          "path": "scientific-skills/Protocol Design/randomization-gen"
+        },
+        {
+          "name": "rare-disease-hpo-mapper",
+          "path": "scientific-skills/Evidence Insight/rare-disease-hpo-mapper"
+        },
+        {
+          "name": "rct-bias-assessment-rob",
+          "path": "scientific-skills/Data Analysis/rct-bias-assessment-rob2"
+        },
+        {
+          "name": "rct-bias-assessment-rob2",
+          "path": "scientific-skills/Evidence Insight/rct-bias-assessment-rob2"
+        },
+        {
+          "name": "reactome-skill",
+          "path": "scientific-skills/Evidence Insight/reactome-skill"
+        },
+        {
+          "name": "reagent-expiry-alert",
+          "path": "scientific-skills/Other/reagent-expiry-alert"
+        },
+        {
+          "name": "reagent-substitute-scout",
+          "path": "scientific-skills/Evidence Insight/reagent-substitute-scout"
+        },
+        {
+          "name": "real-world-evidence-study-designer",
+          "path": "awesome-med-research-skills/Protocol Design/real-world-evidence-study-designer"
+        },
+        {
+          "name": "rebuttal-letter-strategist",
+          "path": "scientific-skills/Academic Writing/rebuttal-letter-strategist"
+        },
+        {
+          "name": "recommendation-letter-assistant",
+          "path": "scientific-skills/Academic Writing/recommendation-letter-assistant"
+        },
+        {
+          "name": "reference-finder",
+          "path": "scientific-skills/Evidence Insight/reference-finder"
+        },
+        {
+          "name": "reference-integrity-checker",
+          "path": "awesome-med-research-skills/Academic Writing/reference-integrity-checker"
+        },
+        {
+          "name": "reference-retrieval-skill",
+          "path": "scientific-skills/Evidence Insight/reference-retrieval-skill"
+        },
+        {
+          "name": "reference-search",
+          "path": "scientific-skills/Evidence Insight/reference-search"
+        },
+        {
+          "name": "reference-style-sync",
+          "path": "scientific-skills/Academic Writing/reference-style-sync"
+        },
+        {
+          "name": "referral-letter-generator",
+          "path": "scientific-skills/Academic Writing/referral-letter-generator"
+        },
+        {
+          "name": "regulatory-submission",
+          "path": "scientific-skills/Academic Writing/regulatory-submission"
+        },
+        {
+          "name": "reporting-guideline-compliance-checker",
+          "path": "awesome-med-research-skills/Academic Writing/reporting-guideline-compliance-checker"
+        },
+        {
+          "name": "reproducibility-check",
+          "path": "scientific-skills/Other/reproducibility-check"
+        },
+        {
+          "name": "research-article-weekly",
+          "path": "scientific-skills/Evidence Insight/research-article-weekly"
+        },
+        {
+          "name": "research-grants",
+          "path": "scientific-skills/Protocol Design/research-grants"
+        },
+        {
+          "name": "research-hotspot-analysis",
+          "path": "scientific-skills/Evidence Insight/research-hotspot-analysis"
+        },
+        {
+          "name": "research-paper-downloader",
+          "path": "scientific-skills/Evidence Insight/research-paper-downloader"
+        },
+        {
+          "name": "research-proposal-generator",
+          "path": "scientific-skills/Protocol Design/research-proposal-generator"
+        },
+        {
+          "name": "residency-interview-prep",
+          "path": "scientific-skills/Academic Writing/residency-interview-prep"
+        },
+        {
+          "name": "response-letter",
+          "path": "scientific-skills/Academic Writing/response-letter"
+        },
+        {
+          "name": "response-tone-polisher",
+          "path": "scientific-skills/Academic Writing/response-tone-polisher"
+        },
+        {
+          "name": "resubmission-deadline-tracker",
+          "path": "scientific-skills/Other/resubmission-deadline-tracker"
+        },
+        {
+          "name": "result-figure-consistencycheck",
+          "path": "scientific-skills/Other/result-figure-consistencycheck"
+        },
+        {
+          "name": "result-reliability-checker",
+          "path": "awesome-med-research-skills/Evidence Insight/result-reliability-checker"
+        },
+        {
+          "name": "results-section-structurer",
+          "path": "awesome-med-research-skills/Academic Writing/results-section-structurer"
+        },
+        {
+          "name": "results-section-writer",
+          "path": "awesome-med-research-skills/Academic Writing/results-section-writer"
+        },
+        {
+          "name": "retraction-watcher",
+          "path": "scientific-skills/Evidence Insight/retraction-watcher"
+        },
+        {
+          "name": "revision-strategy-planner",
+          "path": "awesome-med-research-skills/Academic Writing/revision-strategy-planner"
+        },
+        {
+          "name": "rf-model-importance-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/rf-model-importance-analysis"
+        },
+        {
+          "name": "roc-diagnostic-performance",
+          "path": "awesome-med-research-skills/Data Analysis/roc-diagnostic-performance"
+        },
+        {
+          "name": "rowan",
+          "path": "scientific-skills/Data Analysis/rowan"
+        },
+        {
+          "name": "sample-correlation-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/sample-correlation-analysis"
+        },
+        {
+          "name": "sample-group-sankey-plot",
+          "path": "awesome-med-research-skills/Data Analysis/sample-group-sankey-plot"
+        },
+        {
+          "name": "sample-size-and-power-planning-assistant",
+          "path": "awesome-med-research-skills/Protocol Design/sample-size-and-power-planning-assistant"
+        },
+        {
+          "name": "sample-size-basic",
+          "path": "scientific-skills/Protocol Design/sample-size-basic"
+        },
+        {
+          "name": "sample-size-power-calculator",
+          "path": "scientific-skills/Academic Writing/sample-size-power-calculator"
+        },
+        {
+          "name": "sanger-chromatogram-qa",
+          "path": "scientific-skills/Data Analysis/sanger-chromatogram-qa"
+        },
+        {
+          "name": "scanpy",
+          "path": "scientific-skills/Data Analysis/scanpy"
+        },
+        {
+          "name": "schedule-management",
+          "path": "scientific-skills/Other/schedule-management"
+        },
+        {
+          "name": "scholar-evaluation",
+          "path": "scientific-skills/Evidence Insight/scholar-evaluation"
+        },
+        {
+          "name": "sci-paper-reviewer",
+          "path": "scientific-skills/Other/sci-paper-reviewer"
+        },
+        {
+          "name": "science-popularization-article",
+          "path": "scientific-skills/Other/science-popularization-article"
+        },
+        {
+          "name": "scientific-cover-letter-drafter",
+          "path": "scientific-skills/Academic Writing/cover-letter-drafter",
+          "rewriteFrontmatterName": "cover-letter-drafter"
+        },
+        {
+          "name": "scientific-critical-thinking",
+          "path": "scientific-skills/Evidence Insight/scientific-critical-thinking"
+        },
+        {
+          "name": "scientific-podcast-summary",
+          "path": "scientific-skills/Evidence Insight/scientific-podcast-summary"
+        },
+        {
+          "name": "scientific-schematics",
+          "path": "scientific-skills/Other/scientific-schematics"
+        },
+        {
+          "name": "scikit-bio",
+          "path": "scientific-skills/Data Analysis/scikit-bio"
+        },
+        {
+          "name": "scikit-survival",
+          "path": "scientific-skills/Data Analysis/scikit-survival"
+        },
+        {
+          "name": "scite-database",
+          "path": "scientific-skills/Evidence Insight/scite-database"
+        },
+        {
+          "name": "scrna-cell-type-annotator",
+          "path": "scientific-skills/Data Analysis/scrna-cell-type-annotator"
+        },
+        {
+          "name": "scvi-tools",
+          "path": "scientific-skills/Data Analysis/scvi-tools"
+        },
+        {
+          "name": "sds-msds-risk-scanner",
+          "path": "scientific-skills/Evidence Insight/sds-msds-risk-scanner"
+        },
+        {
+          "name": "seaborn",
+          "path": "scientific-skills/Data Analysis/seaborn"
+        },
+        {
+          "name": "search-pubmed",
+          "path": "scientific-skills/Other/search-pubmed"
+        },
+        {
+          "name": "semantic-consistency-auditor",
+          "path": "scientific-skills/Academic Writing/semantic-consistency-auditor"
+        },
+        {
+          "name": "semantic-scholar-database",
+          "path": "scientific-skills/Evidence Insight/semantic-scholar-database"
+        },
+        {
+          "name": "sequence-alignment",
+          "path": "scientific-skills/Data Analysis/sequence-alignment"
+        },
+        {
+          "name": "shap",
+          "path": "scientific-skills/Data Analysis/shap"
+        },
+        {
+          "name": "shift-handover-summarizer",
+          "path": "scientific-skills/Other/shift-handover-summarizer"
+        },
+        {
+          "name": "short-video-script-generator",
+          "path": "scientific-skills/Other/short-video-script-generator"
+        },
+        {
+          "name": "single-cell-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/single-cell-research-planner"
+        },
+        {
+          "name": "single-compound-network-toxicology-disease-link-reference-grounded",
+          "path": "awesome-med-research-skills/Protocol Design/single-compound-network-toxicology-disease-link-reference-grounded"
+        },
+        {
+          "name": "single-drug-adverse-effect-hub-first-network-pharmacology",
+          "path": "awesome-med-research-skills/Protocol Design/single-drug-adverse-effect-hub-first-network-pharmacology"
+        },
+        {
+          "name": "single-drug-adverse-effect-pathway-anchored-network-pharmacology",
+          "path": "awesome-med-research-skills/Protocol Design/single-drug-adverse-effect-pathway-anchored-network-pharmacology"
+        },
+        {
+          "name": "single-drug-faers-safety-profile-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/single-drug-faers-safety-profile-research-planner"
+        },
+        {
+          "name": "single-gene-oncology-reference-grounded-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/single-gene-oncology-reference-grounded-research-planner"
+        },
+        {
+          "name": "singlecell-portal",
+          "path": "scientific-skills/Data Analysis/singlecell-portal"
+        },
+        {
+          "name": "skill-auditor",
+          "path": "skill-auditor"
+        },
+        {
+          "name": "slide-deck-for-lab-meeting",
+          "path": "awesome-med-research-skills/Academic Writing/slide-deck-for-lab-meeting"
+        },
+        {
+          "name": "slide-deck-images",
+          "path": "scientific-skills/Other/slide-deck-images"
+        },
+        {
+          "name": "smart-journal-monitor",
+          "path": "scientific-skills/Evidence Insight/smart-journal-monitor"
+        },
+        {
+          "name": "smiles-de-salter",
+          "path": "scientific-skills/Data Analysis/smiles-de-salter"
+        },
+        {
+          "name": "soft-article-writer",
+          "path": "scientific-skills/Other/soft-article-writer"
+        },
+        {
+          "name": "sop-writer",
+          "path": "scientific-skills/Protocol Design/sop-writer"
+        },
+        {
+          "name": "spatial-transcriptomics-mapper",
+          "path": "scientific-skills/Data Analysis/spatial-transcriptomics-mapper"
+        },
+        {
+          "name": "spreadsheet-ops",
+          "path": "scientific-skills/Other/spreadsheet-ops"
+        },
+        {
+          "name": "ssgsea-immune-infiltration-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/ssgsea-immune-infiltration-analysis"
+        },
+        {
+          "name": "statistical-analysis",
+          "path": "scientific-skills/Data Analysis/statistical-analysis"
+        },
+        {
+          "name": "statistical-analysis-advisor",
+          "path": "scientific-skills/Data Analysis/statistical-analysis-advisor"
+        },
+        {
+          "name": "string-database",
+          "path": "scientific-skills/Evidence Insight/string-database"
+        },
+        {
+          "name": "study-design-identifier",
+          "path": "awesome-med-research-skills/Evidence Insight/study-design-identifier"
+        },
+        {
+          "name": "study-design-scale-selector",
+          "path": "scientific-skills/Data Analysis/study-design-scale-selector"
+        },
+        {
+          "name": "study-limitations-drafter",
+          "path": "scientific-skills/Academic Writing/study-limitations-drafter"
+        },
+        {
+          "name": "study-objective-refiner",
+          "path": "awesome-med-research-skills/Protocol Design/study-objective-refiner"
+        },
+        {
+          "name": "style-journal-rewrite",
+          "path": "scientific-skills/Academic Writing/style-journal-rewrite"
+        },
+        {
+          "name": "survival-analysis-km",
+          "path": "scientific-skills/Data Analysis/survival-analysis-km"
+        },
+        {
+          "name": "survival-curve-risk-table",
+          "path": "scientific-skills/Data Analysis/survival-curve-risk-table"
+        },
+        {
+          "name": "svm-model-importance-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/svm-model-importance-analysis"
+        },
+        {
+          "name": "symptom-checker-triage",
+          "path": "scientific-skills/Other/symptom-checker-triage"
+        },
+        {
+          "name": "systematic-review",
+          "path": "scientific-skills/Academic Writing/systematic-review"
+        },
+        {
+          "name": "systematic-review-screener",
+          "path": "scientific-skills/Evidence Insight/systematic-review-screener"
+        },
+        {
+          "name": "table-1-generator",
+          "path": "scientific-skills/Data Analysis/table-1-generator"
+        },
+        {
+          "name": "table-1-generator-advanced",
+          "path": "scientific-skills/Data Analysis/table-1-generator-advanced"
+        },
+        {
+          "name": "table-narrative-writer",
+          "path": "awesome-med-research-skills/Academic Writing/table-narrative-writer"
+        },
+        {
+          "name": "target-journal-matcher",
+          "path": "awesome-med-research-skills/Academic Writing/target-journal-matcher"
+        },
+        {
+          "name": "target-novelty-scorer",
+          "path": "scientific-skills/Evidence Insight/target-novelty-scorer"
+        },
+        {
+          "name": "task-reminder",
+          "path": "scientific-skills/Other/task-reminder"
+        },
+        {
+          "name": "text-format-organizer",
+          "path": "scientific-skills/Other/text-format-organizer"
+        },
+        {
+          "name": "text-to-technical-roadmap",
+          "path": "scientific-skills/Other/text-to-technical-roadmap"
+        },
+        {
+          "name": "tf-target-gene-regulatory-network",
+          "path": "awesome-med-research-skills/Data Analysis/tf-target-gene-regulatory-network"
+        },
+        {
+          "name": "time-dependent-roc",
+          "path": "awesome-med-research-skills/Data Analysis/time-dependent-roc"
+        },
+        {
+          "name": "time-zone-planner",
+          "path": "scientific-skills/Other/time-zone-planner"
+        },
+        {
+          "name": "title-and-abstract-optimizer",
+          "path": "awesome-med-research-skills/Academic Writing/title-and-abstract-optimizer"
+        },
+        {
+          "name": "tone-adjuster",
+          "path": "scientific-skills/Academic Writing/tone-adjuster"
+        },
+        {
+          "name": "tooluniverse-clinical-trial-design",
+          "path": "scientific-skills/Protocol Design/tooluniverse-clinical-trial-design"
+        },
+        {
+          "name": "tooluniverse-clinical-trial-matching",
+          "path": "scientific-skills/Evidence Insight/tooluniverse-clinical-trial-matching"
+        },
+        {
+          "name": "tooluniverse-literature-deep-research",
+          "path": "scientific-skills/Evidence Insight/tooluniverse-literature-deep-research"
+        },
+        {
+          "name": "tooluniverse-statistical-modeling",
+          "path": "scientific-skills/Data Analysis/tooluniverse-statistical-modeling"
+        },
+        {
+          "name": "topic-evidence-mapper",
+          "path": "awesome-med-research-skills/Evidence Insight/topic-evidence-mapper"
+        },
+        {
+          "name": "TorchDrug-English",
+          "path": "scientific-skills/Data Analysis/TorchDrug-English"
+        },
+        {
+          "name": "toxicity-structure-alert",
+          "path": "scientific-skills/Data Analysis/toxicity-structure-alert"
+        },
+        {
+          "name": "translational-gap-analyzer",
+          "path": "scientific-skills/Evidence Insight/translational-gap-analyzer"
+        },
+        {
+          "name": "translational-study-blueprint",
+          "path": "awesome-med-research-skills/Protocol Design/translational-study-blueprint"
+        },
+        {
+          "name": "treatment-plans",
+          "path": "scientific-skills/Other/treatment-plans"
+        },
+        {
+          "name": "treatment-response-predictor-planner",
+          "path": "awesome-med-research-skills/Protocol Design/treatment-response-predictor-planner"
+        },
+        {
+          "name": "tumor-immune-infiltration-diagnostic-ml-research-planner",
+          "path": "awesome-med-research-skills/Protocol Design/tumor-immune-infiltration-diagnostic-ml-research-planner"
+        },
+        {
+          "name": "two-sample-mr-exposure-screening-reference-grounded",
+          "path": "awesome-med-research-skills/Protocol Design/two-sample-mr-exposure-screening-reference-grounded"
+        },
+        {
+          "name": "two-sample-mr-research-planner",
+          "path": "scientific-skills/Protocol Design/two-sample-mr-research-planner"
+        },
+        {
+          "name": "umap-tsne-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/umap-tsne-analysis"
+        },
+        {
+          "name": "uniprot-database",
+          "path": "scientific-skills/Evidence Insight/uniprot-database"
+        },
+        {
+          "name": "univariate-multivariable-cox-regression",
+          "path": "awesome-med-research-skills/Data Analysis/univariate-multivariable-cox-regression"
+        },
+        {
+          "name": "unmet-clinical-need-extractor",
+          "path": "awesome-med-research-skills/Evidence Insight/unmet-clinical-need-extractor"
+        },
+        {
+          "name": "unstructured-medical-text-miner",
+          "path": "scientific-skills/Evidence Insight/unstructured-medical-text-miner"
+        },
+        {
+          "name": "upset-plot-converter",
+          "path": "scientific-skills/Data Analysis/upset-plot-converter"
+        },
+        {
+          "name": "usmle-case-generator",
+          "path": "scientific-skills/Academic Writing/usmle-case-generator"
+        },
+        {
+          "name": "uspto-database",
+          "path": "scientific-skills/Other/uspto-database"
+        },
+        {
+          "name": "validation-strategy-designer",
+          "path": "awesome-med-research-skills/Protocol Design/validation-strategy-designer"
+        },
+        {
+          "name": "variant-annotation",
+          "path": "scientific-skills/Evidence Insight/variant-annotation"
+        },
+        {
+          "name": "variant-pathogenicity-predictor",
+          "path": "scientific-skills/Data Analysis/variant-pathogenicity-predictor"
+        },
+        {
+          "name": "vector-text-fixer",
+          "path": "scientific-skills/Other/vector-text-fixer"
+        },
+        {
+          "name": "venue-templates",
+          "path": "scientific-skills/Evidence Insight/venue-templates"
+        },
+        {
+          "name": "virtual-patient-roleplay",
+          "path": "scientific-skills/Other/virtual-patient-roleplay"
+        },
+        {
+          "name": "visual-content-desc",
+          "path": "scientific-skills/Academic Writing/visual-content-desc"
+        },
+        {
+          "name": "volcano-plot-labeler",
+          "path": "scientific-skills/Data Analysis/volcano-plot-labeler"
+        },
+        {
+          "name": "volcano-plot-script",
+          "path": "scientific-skills/Data Analysis/volcano-plot-script"
+        },
+        {
+          "name": "waste-disposal-guide",
+          "path": "scientific-skills/Other/waste-disposal-guide"
+        },
+        {
+          "name": "western-blot-quantifier",
+          "path": "scientific-skills/Data Analysis/western-blot-quantifier"
+        },
+        {
+          "name": "wgcna-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/wgcna-analysis"
+        },
+        {
+          "name": "word-read-write",
+          "path": "scientific-skills/Other/word-read-write"
+        },
+        {
+          "name": "XGBoost-analysis",
+          "path": "awesome-med-research-skills/Data Analysis/XGBoost-analysis"
+        },
+        {
+          "name": "zinc-database",
+          "path": "scientific-skills/Evidence Insight/zinc-database"
         }
       ]
     }

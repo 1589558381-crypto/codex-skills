@@ -62,3 +62,7 @@
 	path = sources/cnki-codex-skills
 	url = https://github.com/cfh-7598/cnki-codex-skills.git
 	branch = main
+[submodule "sources/medical-research-skills"]
+	path = sources/medical-research-skills
+	url = https://github.com/aipoch/medical-research-skills.git
+	branch = main

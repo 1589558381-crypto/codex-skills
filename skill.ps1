@@ -163,8 +163,16 @@ function Install-SkillSet {
         $paths = @($paths | Sort-Object -Unique)
         if (-not ($paths -contains ".")) {
             Invoke-Git -Arguments @("-C",$tempRoot,"sparse-checkout","init","--cone")
-            $args = @("-C",$tempRoot,"sparse-checkout","set","--cone","--") + $paths
-            Invoke-Git -Arguments $args
+            if ($paths.Count -gt 80) {
+                $paths | & git -C $tempRoot sparse-checkout set --cone --stdin
+                if ($LASTEXITCODE -ne 0) {
+                    throw "Git sparse-checkout failed when reading directory paths from stdin."
+                }
+            }
+            else {
+                $args = @("-C",$tempRoot,"sparse-checkout","set","--cone","--") + $paths
+                Invoke-Git -Arguments $args
+            }
         }
 
         Invoke-Git -Arguments @("-C",$tempRoot,"checkout","--detach",$SourceObject.commit)
@@ -211,6 +219,19 @@ function Install-SkillSet {
             }
 
             Copy-SkillDirectory -SourcePath $sourcePath -DestinationPath $destination
+
+            if ($skill.PSObject.Properties.Name -contains "rewriteFrontmatterName") {
+                $skillDocument = Join-Path $destination "SKILL.md"
+                $skillText = Get-Content -Raw -Encoding UTF8 -Path $skillDocument
+                $originalLine = "name: $($skill.rewriteFrontmatterName)"
+                $newLine = "name: $($skill.name)"
+                $linePattern = "(?m)^" + [regex]::Escape($originalLine) + "\s*$"
+                if (-not [regex]::IsMatch($skillText, $linePattern)) {
+                    throw "Cannot normalize declared name for $($skill.name): expected $originalLine"
+                }
+                $skillText = [regex]::Replace($skillText, $linePattern, $newLine, 1)
+                [System.IO.File]::WriteAllText($skillDocument, $skillText, (New-Object System.Text.UTF8Encoding($false)))
+            }
 
             $marker = [ordered]@{
                 source = $SourceObject.alias
